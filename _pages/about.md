@@ -31,7 +31,7 @@ I'm **Sarthak Mahajan**, a B.Tech Computer Science student at **Shri Vaishnav Vi
     <p>Ranked <strong>1st among 80+ teams</strong> in a national 24-hour AI/ML hackathon</p>
   </div>
   <div style="padding: 20px; border: 1px solid #333; border-radius: 8px;">
-    <h3>☁️ AWS Cloud Club Lead</h3>
+    <h3>☁️ AWS Cloud Club Technical Lead</h3>
     <p>Managing <strong>30+ students</strong> and mentoring <strong>10+ juniors</strong> on cloud deployment</p>
   </div>
   <div style="padding: 20px; border: 1px solid #333; border-radius: 8px;">
