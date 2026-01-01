@@ -252,13 +252,13 @@
         color: #7ab0ff !important;
     }
 
-    /* Dark mode masthead: full-width black bar with subtle divider */
+    /* Dark mode masthead: pure black bar with white text */
     .masthead,
     .masthead__inner-wrap,
     .masthead__menu,
     .greedy-nav {
-        background: #0a0a0a !important;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.14) !important;
+        background: #000 !important;
+        border-bottom: none !important;
         width: 100% !important;
         max-width: none !important;
         margin: 0 !important;
@@ -269,7 +269,7 @@
     .site-title,
     .greedy-nav a,
     .greedy-nav .visible-links a {
-        color: #e8e8e8 !important;
+        color: #fff !important;
     }
 
     .greedy-nav .visible-links a:hover,
@@ -286,23 +286,29 @@
         color: #333 !important;
     }
 
-    /* Light mode masthead */
-    .masthead {
-        background: #fff !important;
-    }
-
-    .masthead__inner-wrap {
-        background: #fff !important;
-        border-bottom: 1px solid #e0e0e0 !important;
+    /* Light mode masthead: pure black bar with white text */
+    .masthead,
+    .masthead__inner-wrap,
+    .masthead__menu,
+    .greedy-nav {
+        background: #000 !important;
+        border-bottom: none !important;
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 0 18px !important;
+        box-sizing: border-box !important;
     }
 
     .site-title,
-    .greedy-nav a {
-        color: #333 !important;
+    .greedy-nav a,
+    .greedy-nav .visible-links a {
+        color: #fff !important;
     }
 
-    .greedy-nav .visible-links a:hover {
-        color: #667eea !important;
+    .greedy-nav .visible-links a:hover,
+    .greedy-nav .visible-links .selected>a {
+        color: #ff5c5c !important;
     }
 
     .skill-bar-container {
