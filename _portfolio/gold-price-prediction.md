@@ -1,6 +1,6 @@
 ---
 title: "Gold Price Forecasting (R² = 0.92)"
-excerpt: "Regression model trained on 10+ years of data with an 18% reduction in MSE.<br/><img src='/images/gold.png'>"
+excerpt: "Regression model trained on 10+ years of data with an 18% reduction in MSE."
 collection: portfolio
 github: "https://github.com/Sarthakm811/Gold-Price-Prediction"
 difficulty: "Intermediate"

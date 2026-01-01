@@ -1,6 +1,6 @@
 ---
 title: "Adidas US Sales Analysis (EDA & Visual Analytics)"
-excerpt: "A deep-dive exploratory data analysis of ~9,600 sales records to uncover regional trends, retailer performance, and channel profitability.<br/><img src='/images/adidas-analysis.png'>"
+excerpt: "A deep-dive exploratory data analysis of ~9,600 sales records to uncover regional trends, retailer performance, and channel profitability."
 collection: portfolio
 github: "https://github.com/Sarthakm811/adidas-us-sales-"
 difficulty: "Beginner"

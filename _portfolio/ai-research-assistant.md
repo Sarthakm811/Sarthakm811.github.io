@@ -1,6 +1,6 @@
 ---
 title: "AI Data Science Research Assistant"
-excerpt: "An AI-powered platform for automated EDA and ML training using Gemini AI.<br/><img src='/images/ai-assist.png'>"
+excerpt: "An AI-powered platform for automated EDA and ML training using Gemini AI."
 collection: portfolio
 github: "https://github.com/Sarthakm811/AI-Research-Assistant"
 difficulty: "Advanced"
