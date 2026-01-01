@@ -61,11 +61,9 @@ I'm **Sarthak Mahajan**, a B.Tech Computer Science student at **Shri Vaishnav Vi
 
 {% include base_path %}
 
-<div class="grid__wrapper">
-  {% for post in site.portfolio limit:4 %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div>
+{% for post in site.portfolio limit:4 %}
+  {% include archive-single.html %}
+{% endfor %}
 
 [View All Projects →](/portfolio/){: .btn .btn--primary}
 
