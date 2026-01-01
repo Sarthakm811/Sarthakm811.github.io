@@ -40,7 +40,7 @@ Indore, Madhya Pradesh, India
   </div>
   <div style="padding: 20px; border: 1px solid #333; border-radius: 8px;">
     <h3>💼 Internship Opportunities</h3>
-    <p>Seeking summer 2026 internships in Data Science, Machine Learning, or AI Engineering roles</p>
+    <p>Open to internships in Data Science, Machine Learning, or AI Engineering roles</p>
   </div>
   <div style="padding: 20px; border: 1px solid #333; border-radius: 8px;">
     <h3>🌟 Open Source</h3>
