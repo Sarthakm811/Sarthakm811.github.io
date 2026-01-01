@@ -168,6 +168,28 @@
     transform: translateX(5px);
 }
 
+/* Research cards (replaces inline styles) */
+.research-card {
+    padding: 20px !important;
+    margin: 20px 0 !important;
+    border-left: 4px solid #444 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
+    transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.research-card a {
+    font-weight: 600 !important;
+}
+
+.research-card.accent-blue {
+    border-left-color: #0366d6 !important;
+}
+
+.research-card.accent-green {
+    border-left-color: #28a745 !important;
+}
+
 /* ======== DARK MODE ======== */
 @media (prefers-color-scheme: dark) {
     .skill-bar-container {
@@ -190,6 +212,16 @@
 
     .impact-card:hover {
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+    }
+
+    .research-card {
+        background: #1a1a1a !important;
+        color: #f2f2f2 !important;
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35) !important;
+    }
+
+    .research-card a {
+        color: #ff5c5c !important;
     }
 
     /* Dark mode masthead: full-width black bar with subtle divider */
@@ -320,6 +352,16 @@
     .achievement-card h3,
     .achievement-card p {
         color: #333 !important;
+    }
+
+    .research-card {
+        background: #f8f9fb !important;
+        color: #111 !important;
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12) !important;
+    }
+
+    .research-card a {
+        color: #0f52ba !important;
     }
 }
 

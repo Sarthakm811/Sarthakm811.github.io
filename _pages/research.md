@@ -21,7 +21,7 @@ My research focuses on two key areas that bridge practical AI applications with 
 ### 1. Autonomous AI Research & Discovery Agent
 **Domain**: Information Retrieval, Multi-Agent Systems, RAG (Retrieval-Augmented Generation)
 
-<div style="background: #1a1a1a; padding: 20px; border-left: 4px solid #0366d6; margin: 20px 0;">
+<div class="research-card accent-blue">
 
 **Research Problem**: Researchers face information overload when searching through academic papers and technical documentation. Traditional search engines return raw results without synthesis or credibility assessment.
 
@@ -46,7 +46,7 @@ My research focuses on two key areas that bridge practical AI applications with 
 ### 2. NASA Meteorite Landing Analysis: Spatiotemporal Pattern Discovery
 **Domain**: Statistical Analysis, Scientific Data Mining, Geospatial Analytics
 
-<div style="background: #1a1a1a; padding: 20px; border-left: 4px solid #28a745; margin: 20px 0;">
+<div class="research-card accent-green">
 
 **Research Problem**: NASA's massive meteorite landing dataset (45,716 records spanning centuries) contains hidden geographic and temporal patterns that aren't obvious through manual inspection. Understanding these patterns can inform future space exploration and planetary science research.
 
