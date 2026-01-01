@@ -13,16 +13,16 @@ I'm always interested in collaborating on **AI/ML projects**, discussing **resea
 
 ## 📧 Get in Touch
 
-<div style="background: #1a1a1a; padding: 30px; border-radius: 10px; margin: 20px 0;">
+<div class="contact-card">
 
 **Email**  
-<a href="mailto:sarthakm811@gmail.com" style="font-size: 1.2em;">sarthakm811@gmail.com</a>
+<a href="mailto:sarthakm811@gmail.com">sarthakm811@gmail.com</a>
 
 **LinkedIn**  
-<a href="https://www.linkedin.com/in/sarthak-mahajan-b5926a296" target="_blank" style="font-size: 1.2em;">linkedin.com/in/sarthak-mahajan-b5926a296</a>
+<a href="https://www.linkedin.com/in/sarthak-mahajan-b5926a296" target="_blank">linkedin.com/in/sarthak-mahajan-b5926a296</a>
 
 **GitHub**  
-<a href="https://github.com/Sarthakm811" target="_blank" style="font-size: 1.2em;">github.com/Sarthakm811</a>
+<a href="https://github.com/Sarthakm811" target="_blank">github.com/Sarthakm811</a>
 
 **Location**  
 Indore, Madhya Pradesh, India
