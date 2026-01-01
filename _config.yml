@@ -8,29 +8,25 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+site_theme               : "contrast" # A professional dark-mode style for AI/ML
+title                    : "Sarthak Mahajan | AI/ML & Data Science Portfolio"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
-
+name                     : &name "Sarthak Mahajan"
+description              : &description "B.Tech CSE student at SVVV specializing in Generative AI, AWS, and Data Science. Winner of VOID Hackathon (AI/ML Domain)."
+url                      : "https://Sarthakm811.github.io" 
+baseurl                  : "" 
+repository               : "Sarthakm811/Sarthakm811.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  avatar           : "profile.png" # Upload a photo named profile.png to your GitHub repo
+  name             : "Sarthak Mahajan"
+  bio              : "AI/ML Enthusiast | AWS Cloud Club Technical Lead | Hackathon Winner"
+  location         : "Indore, India"
+  employer         : "SVVV"
+  email            : "sarthakm811@gmail.com"
 
   # Academic websites
   academia         : # URL
@@ -51,13 +47,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "Sarthakm811"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -66,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "sarthak-mahajan-b5926a296"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
