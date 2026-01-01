@@ -15,16 +15,16 @@ I'm always interested in collaborating on **AI/ML projects**, discussing **resea
 
 <div class="contact-card">
 
-**Email**  
+**📧 Email**  
 <a href="mailto:sarthakm811@gmail.com">sarthakm811@gmail.com</a>
 
-**LinkedIn**  
+**💼 LinkedIn**  
 <a href="https://www.linkedin.com/in/sarthak-mahajan-b5926a296" target="_blank">linkedin.com/in/sarthak-mahajan-b5926a296</a>
 
-**GitHub**  
+**💻 GitHub**  
 <a href="https://github.com/Sarthakm811" target="_blank">github.com/Sarthakm811</a>
 
-**Location**  
+**📍 Location**  
 Indore, Madhya Pradesh, India
 
 </div>
