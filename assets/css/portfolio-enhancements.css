@@ -200,13 +200,21 @@ body .greedy-nav a,
     border: 1px solid rgba(0, 0, 0, 0.08) !important;
     box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08) !important;
     font-size: 1.05em !important;
-    line-height: 1.6 !important;
+    line-height: 2.2 !important;
     transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.contact-card p,
+.contact-card strong {
+    margin: 16px 0 4px 0 !important;
+    display: block !important;
 }
 
 .contact-card a {
     font-weight: 600 !important;
     text-decoration: none !important;
+    display: block !important;
+    margin-bottom: 16px !important;
 }
 
 /* ======== DARK MODE ======== */
