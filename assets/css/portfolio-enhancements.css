@@ -1,19 +1,52 @@
 /* Portfolio Enhancement Styles */
 
+/* Light Mode Support */
+@media (prefers-color-scheme: light) {
+    .skill-bar-container {
+        background: rgba(0, 0, 0, 0.05) !important;
+        border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .skill-bar {
+        background: rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .difficulty-badge {
+        color: #000 !important;
+    }
+
+    .archive__item:hover {
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
+    }
+}
+
+/* Dark Mode (Default) */
+@media (prefers-color-scheme: dark) {
+    .skill-bar-container {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .skill-bar {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .archive__item:hover {
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    }
+}
+
 /* Skill Proficiency Bars */
 .skill-bar-container {
     margin: 15px 0;
-    background: rgba(255, 255, 255, 0.05);
     padding: 12px;
     border-radius: 8px;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .skill-bar {
     width: 100%;
     height: 8px;
-    background: rgba(255, 255, 255, 0.1);
     border-radius: 4px;
     overflow: hidden;
     margin-top: 5px;
@@ -24,6 +57,7 @@
     background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
     border-radius: 4px;
     animation: slideIn 1.5s ease-out;
+    box-shadow: 0 0 10px rgba(102, 126, 234, 0.4);
 }
 
 @keyframes slideIn {
@@ -45,7 +79,6 @@
 
 .archive__item:hover {
     transform: translateY(-8px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 /* Difficulty Badge */
@@ -57,26 +90,27 @@
     font-weight: 600;
     margin-right: 8px;
     margin-top: 10px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .difficulty-beginner {
     background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
-    color: #000;
+    color: #000 !important;
 }
 
 .difficulty-intermediate {
     background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
-    color: #000;
+    color: #000 !important;
 }
 
 .difficulty-advanced {
     background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
-    color: white;
+    color: white !important;
 }
 
 .difficulty-expert {
     background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-    color: #000;
+    color: #000 !important;
 }
 
 /* Impact Cards Hover */
@@ -87,7 +121,18 @@
 
 .impact-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: light) {
+    .impact-card:hover {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .impact-card:hover {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+    }
 }
 
 /* Achievement Cards */
