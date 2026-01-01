@@ -6,17 +6,6 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /images/header-bg.jpg
-  actions:
-    - label: "View Portfolio"
-      url: "/portfolio/"
-    - label: "Research Work"
-      url: "/research/"
-    - label: "Download CV"
-      url: "/files/cv.pdf"
 ---
 
 ## Hi there! 👋
