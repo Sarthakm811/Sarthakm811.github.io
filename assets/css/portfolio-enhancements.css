@@ -19,6 +19,33 @@
     display: none !important;
 }
 
+/* Fix masthead/title bar styling for both modes */
+.masthead {
+    background: transparent !important;
+    border-bottom: none !important;
+}
+
+.masthead__inner-wrap {
+    background: transparent !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding: 10px 0 !important;
+}
+
+.site-title {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 1.2em !important;
+}
+
+.greedy-nav {
+    padding-right: 0 !important;
+}
+
+.greedy-nav a {
+    margin-right: 15px !important;
+    text-decoration: none !important;
+}
+
 .skill-bar-container {
     margin: 15px 0;
     padding: 12px;
@@ -140,14 +167,19 @@
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
     }
 
-    /* Keep dark mode header/navigation unchanged */
-    .page__hero--overlay {
-        background: inherit;
+    /* Dark mode masthead */
+    .masthead__inner-wrap {
+        background: transparent !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
     }
 
-    .masthead {
-        background: inherit !important;
-        border-bottom: inherit !important;
+    .site-title,
+    .greedy-nav a {
+        color: #fff !important;
+    }
+
+    .greedy-nav .visible-links a:hover {
+        color: #667eea !important;
     }
 }
 
@@ -157,6 +189,25 @@
     body,
     .page {
         color: #333 !important;
+    }
+
+    /* Light mode masthead */
+    .masthead {
+        background: #fff !important;
+    }
+
+    .masthead__inner-wrap {
+        background: #fff !important;
+        border-bottom: 1px solid #e0e0e0 !important;
+    }
+
+    .site-title,
+    .greedy-nav a {
+        color: #333 !important;
+    }
+
+    .greedy-nav .visible-links a:hover {
+        color: #667eea !important;
     }
 
     .skill-bar-container {
