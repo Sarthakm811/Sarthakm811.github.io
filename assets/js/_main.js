@@ -83,9 +83,6 @@ $(document).ready(function () {
   // Force dark mode only
   setTheme();
 
-  // Enable the theme toggle
-  $('#theme-toggle').on('click', toggleTheme);
-
   // Enable the sticky footer
   var bumpIt = function () {
     $("body").css("padding-bottom", "0");
