@@ -2,6 +2,15 @@
 
 /* ======== UNIVERSAL STYLES (BOTH MODES) ======== */
 
+/* Hide page hero completely */
+.page__hero {
+    display: none !important;
+}
+
+.page__lead {
+    display: none !important;
+}
+
 /* Remove visible empty boxes in header - ALWAYS */
 .page__hero .wrapper,
 .page__hero .wrapper>div,
@@ -12,6 +21,7 @@
 .page__hero .btn {
     border: none !important;
     box-shadow: none !important;
+    display: none !important;
 }
 
 /* Hide action buttons area completely if empty */
