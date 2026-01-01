@@ -318,7 +318,13 @@ body .greedy-nav a,
     .masthead,
     .masthead__inner-wrap,
     .masthead__menu,
-    .greedy-nav {
+    .greedy-nav,
+    body .masthead,
+    body .masthead__inner-wrap,
+    body .masthead__menu,
+    body .greedy-nav,
+    html body .masthead,
+    html body .masthead__inner-wrap {
         background: #000 !important;
         border-bottom: none !important;
         width: 100% !important;
@@ -330,13 +336,23 @@ body .greedy-nav a,
 
     .site-title,
     .greedy-nav a,
-    .greedy-nav .visible-links a {
+    .greedy-nav .visible-links a,
+    body .site-title,
+    body .greedy-nav a,
+    html body .site-title {
         color: #fff !important;
     }
 
     .greedy-nav .visible-links a:hover,
     .greedy-nav .visible-links .selected>a {
         color: #ff5c5c !important;
+    }
+
+    /* Hide hero/header section in light mode */
+    .page__hero,
+    .page__lead,
+    .page__hero--overlay {
+        display: none !important;
     }
 
     .skill-bar-container {
