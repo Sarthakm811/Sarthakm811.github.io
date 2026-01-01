@@ -1,6 +1,16 @@
 /* Portfolio Enhancement Styles - Light & Dark Mode Compatible */
 
-/* ======== UNIVERSAL STYLES ======== */
+/* ======== UNIVERSAL STYLES (BOTH MODES) ======== */
+
+/* Remove visible empty boxes in header - ALWAYS */
+.page__hero .wrapper,
+.page__hero .wrapper > div,
+.page__hero-caption {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
 .skill-bar-container {
     margin: 15px 0;
     padding: 12px;
@@ -120,6 +130,16 @@
 
     .impact-card:hover {
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+    }
+
+    /* Keep dark mode header/navigation unchanged */
+    .page__hero--overlay {
+        background: inherit;
+    }
+
+    .masthead {
+        background: inherit !important;
+        border-bottom: inherit !important;
     }
 }
 
@@ -247,13 +267,5 @@
 
     .greedy-nav .visible-links a:hover {
         color: #007bff !important;
-    }
-
-    /* Remove visible empty boxes in header */
-    .page__hero .wrapper,
-    .page__hero .wrapper > div {
-        border: none !important;
-        background: transparent !important;
-        box-shadow: none !important;
     }
 }
