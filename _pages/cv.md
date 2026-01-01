@@ -15,6 +15,17 @@ Education
   * GPA: 8.4/10.0
   * Expected 2026
 
+Leadership & Involvement
+======
+* **AWS Cloud Club Technical Lead** (2024 - Present)
+  * Managing technical community of 30+ students
+  * Mentoring 10+ juniors on cloud deployment and AWS technologies
+
+* **Google Developer Student Club (GDSC) — AI/ML Member** (2024)
+  * Completed 10+ AI/ML workshops covering supervised learning, data preprocessing, and model evaluation
+  * Worked in 5-6 member teams to clean datasets, apply ML algorithms, and evaluate model performance
+  * Collaborated on hands-on ML projects focusing on real-world data challenges
+
 Skills
 ======
 * **Programming Languages**
