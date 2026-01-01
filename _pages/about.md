@@ -13,6 +13,8 @@ header:
   actions:
     - label: "View Portfolio"
       url: "/portfolio/"
+    - label: "Research Work"
+      url: "/research/"
     - label: "Download CV"
       url: "/files/cv.pdf"
 ---
