@@ -1,15 +1,14 @@
 ---
 title: "HealthCare AI Guardian - Preventive Health Platform"
-excerpt: "🥇 VOID Hackathon Winner | Full-stack AI-powered preventive health platform with early disease detection using deep learning models.<br/><img src='/images/healthcare-ai.png'>"
+excerpt: "🥇 VOID Hackathon Winner | AI/ML-powered preventive health platform with early disease detection using deep learning models.<br/><img src='/images/healthcare-ai.png'>"
 collection: portfolio
 github: "https://github.com/Sarthakm811/HealthCare-AI-Guardian"
 tags:
   - AI/ML
-  - Full-Stack
   - Healthcare
   - Deep Learning
-  - React
-  - Node.js
+  - Data Science
+  - Python
   - Flask
 ---
 
