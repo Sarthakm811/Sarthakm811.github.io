@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Sarthak Mahajan"
-excerpt: "Data Scientist | AI/ML Engineer | AWS Cloud Enthusiast | Data Analyst"
+excerpt: "Data Scientist | AI/ML Specialist | Data Analyst | AWS Cloud Enthusiast | Cloud Club Lead"
 author_profile: true
 redirect_from: 
   - /about/
@@ -21,7 +21,7 @@ header:
 
 ## Hi there! 👋
 
-I'm **Sarthak Mahajan**, a B.Tech Computer Science student at **Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV)** in Indore with a **GPA of 8.4**. I'm a passionate **Data Scientist** and **Data Analyst** specializing in **AI/ML engineering**, **cloud computing (AWS)**, and building data-driven solutions that transform raw data into actionable insights.
+I'm **Sarthak Mahajan**, a B.Tech Computer Science student at **Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV)** in Indore with a **GPA of 8.4**. I'm a passionate **Data Scientist** and **Data Analyst** specializing in **AI/ML engineering**, **AWS cloud computing**, and building intelligent systems that transform raw data into actionable insights through **full-stack engineering** and **advanced analytics**.
 
 ---
 
