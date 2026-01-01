@@ -1,152 +1,210 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Sarthak Mahajan",
+    "email": "sarthakm811@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://Sarthakm811.github.io",
+    "summary": "B.Tech CSE student at SVVV specializing in AI/ML, Data Science, and AWS Cloud. VOID Hackathon Winner and AWS Cloud Club Technical Lead.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Indore",
+      "countryCode": "IN",
+      "region": "Madhya Pradesh"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Sarthakm811",
+        "url": "https://github.com/Sarthakm811"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "sarthak-mahajan-b5926a296",
+        "url": "https://www.linkedin.com/in/sarthak-mahajan-b5926a296"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "AWS Cloud Club SVVV",
+      "position": "Technical Lead",
+      "startDate": "2024",
+      "endDate": "Present",
+      "summary": "Managing a technical community of 30+ students and mentoring 10+ juniors on cloud deployment and AWS technologies."
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV)",
+      "area": "B.Tech in Computer Science Engineering",
+      "studyType": "Bachelor's",
+      "startDate": "2022",
+      "endDate": "2026",
+      "gpa": "8.4",
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "C++",
+        "SQL",
+        "Java (Core)",
+        "HTML5/CSS"
+      ]
+    },
+    {
+      "name": "AI/ML & Data Science",
+      "level": "Advanced",
+      "keywords": [
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Generative AI",
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "Full-Stack Development",
+      "level": "Intermediate",
+      "keywords": [
+        "React",
+        "Node.js",
+        "FastAPI",
+        "TypeScript",
+        "Streamlit"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "AWS (EC2, S3, IAM)",
+        "Gemini AI",
+        "Kaggle API"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Artificial Intelligence",
+      "keywords": [
+        "Generative AI",
+        "Machine Learning",
+        "Data Science"
+      ]
+    },
+    {
+      "name": "Cloud Computing",
+      "keywords": [
+        "AWS",
+        "Cloud Architecture"
+      ]
+    }
+  ],
   "references": [],
-  "publications": [
+  "awards": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "title": "VOID Hackathon Winner",
+      "date": "2024",
+      "awarder": "National AI/ML Hackathon",
+      "summary": "Ranked 1st among 80+ national teams in a 24-hour AI/ML hackathon"
     }
   ],
-  "presentations": [
+  "certificates": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Data Science Foundations - Level 1",
+      "issuer": "IBM",
+      "date": "2025"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Machine Learning for Data Science Project",
+      "issuer": "IBM",
+      "date": "2025"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
+      "name": "Level 3 Generative AI",
+      "issuer": "Google",
+      "date": "2025"
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "The Basics of Cloud Compute",
+      "issuer": "Google",
+      "date": "2025"
+    },
+    {
+      "name": "Develop GenAI Apps using Streamlit",
+      "issuer": "Google",
+      "date": "2025"
+    },
+    {
+      "name": "Prompt Design using Vertex AI",
+      "issuer": "Google",
+      "date": "2025"
+    },
+    {
+      "name": "Generative AI Foundations",
+      "issuer": "AWS Academy",
+      "date": "2025"
+    },
+    {
+      "name": "Data Analytics Simulation",
+      "issuer": "Deloitte",
+      "date": "2025"
+    },
+    {
+      "name": "Data Analytics Simulation",
+      "issuer": "Tata",
+      "date": "2025"
     }
   ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "AI Data Science Research Agent",
+      "category": "AI/ML",
+      "date": "2024",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Developed an AI-powered platform using Streamlit and Gemini AI for automated dataset search via Kaggle API, auto-EDA, and multi-model training with reproducible Python code export."
+    },
+    {
+      "name": "Gold Price Prediction",
+      "category": "Machine Learning",
+      "date": "2024",
+      "url": "",
+      "description": "Engineered a regression model on 10+ years of historical data; improved prediction accuracy by 12% through advanced feature engineering, achieving R² of 0.92 and 18% reduction in MSE."
+    },
+    {
+      "name": "Adidas US Sales Analysis",
+      "category": "Data Analysis",
+      "date": "2024",
+      "url": "",
+      "description": "Conducted deep-dive EDA on ~9,600 records using Pandas and Matplotlib to identify top retailers and high-performing regional sales methods."
+    },
+    {
+      "name": "NASA Meteorite Landings",
+      "category": "Data Science",
+      "date": "2024",
+      "url": "",
+      "description": "Analyzed a dataset of 45,716 meteorite landings using Python to communicate scientific insights and geographic trends for data-driven research interpretation."
     }
   ]
 }

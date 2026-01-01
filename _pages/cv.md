@@ -11,35 +11,59 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **B.Tech in Computer Science Engineering**, Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV), Indore
+  * GPA: 8.4/10.0
+  * Expected 2026
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming Languages**
+  * Python, C++, SQL, Java (Core), HTML5/CSS
+
+* **AI/ML & Data Science**
+  * Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
+  * Generative AI Orchestration
+  * Machine Learning & Deep Learning
+
+* **Full-Stack Development**
+  * React, Node.js, FastAPI, TypeScript
+  * Streamlit
+
+* **Cloud & DevOps**
+  * AWS (EC2, S3, IAM)
+  * Gemini AI, Kaggle API
+
+* **Data Structures & Algorithms**
+  * 100+ problems solved on HackerRank
+
+Key Achievements
+======
+* **VOID Hackathon Winner** (2024)
+  * Ranked 1st among 80+ national teams in 24-hour AI/ML hackathon
+  
+* **AWS Cloud Club Technical Lead**
+  * Managing technical community of 30+ students
+  * Mentoring 10+ juniors on cloud deployment
+
+* **Strong Algorithmic Foundation**
+  * Solved 100+ Data Structures & Algorithms problems on HackerRank
+
+Certifications (2025)
+======
+* **IBM**: Data Science Foundations - Level 1
+* **IBM**: Machine Learning for Data Science Project
+* **Google**: Level 3 Generative AI
+* **Google**: The Basics of Cloud Compute
+* **Google**: Develop GenAI Apps using Streamlit
+* **Google**: Prompt Design using Vertex AI
+* **AWS Academy**: Generative AI Foundations
+* **Industry Simulations**: Data Analytics at Deloitte and Tata
+
+Projects
+======
+  <ul>{% for post in site.portfolio reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 Publications
 ======
@@ -58,7 +82,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
