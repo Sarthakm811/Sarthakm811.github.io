@@ -3,7 +3,10 @@ title: "AI Data Science Research Assistant"
 excerpt: "An AI-powered platform for automated EDA and ML training using Gemini AI.<br/><img src='/images/ai-assist.png'>"
 collection: portfolio
 github: "https://github.com/Sarthakm811/AI-Research-Assistant"
+difficulty: "Advanced"
 ---
+
+<span class="difficulty-badge difficulty-advanced">⭐ Advanced</span>
 
 ### Project Overview
 [cite_start]Built an AI-driven solution to automate tedious data science tasks, from data fetching to code generation[cite: 33, 34].

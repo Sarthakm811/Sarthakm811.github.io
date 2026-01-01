@@ -3,7 +3,10 @@ title: "Adidas US Sales Analysis (EDA & Visual Analytics)"
 excerpt: "A deep-dive exploratory data analysis of ~9,600 sales records to uncover regional trends, retailer performance, and channel profitability.<br/><img src='/images/adidas-analysis.png'>"
 collection: portfolio
 github: "https://github.com/Sarthakm811/adidas-us-sales-"
+difficulty: "Beginner"
 ---
+
+<span class="difficulty-badge difficulty-beginner">🌱 Beginner</span>
 
 ### Project Overview
 This project focuses on performing comprehensive Exploratory Data Analysis (EDA) on the Adidas US Sales dataset to identify high-growth regions, top-performing retailers, and the most profitable sales methods.

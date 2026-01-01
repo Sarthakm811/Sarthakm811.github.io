@@ -1,0 +1,102 @@
+/* Portfolio Enhancement Styles */
+
+/* Skill Proficiency Bars */
+.skill-bar-container {
+    margin: 15px 0;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skill-bar {
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.skill-progress {
+    height: 100%;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    border-radius: 4px;
+    animation: slideIn 1.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        width: 0 !important;
+    }
+
+    to {
+        /* width is set by inline styles */
+    }
+}
+
+/* Project Cards with Hover Effects */
+.archive__item {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.archive__item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Difficulty Badge */
+.difficulty-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+.difficulty-beginner {
+    background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+    color: #000;
+}
+
+.difficulty-intermediate {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    color: #000;
+}
+
+.difficulty-advanced {
+    background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+    color: white;
+}
+
+.difficulty-expert {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    color: #000;
+}
+
+/* Impact Cards Hover */
+.impact-card {
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
+.impact-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Achievement Cards */
+.achievement-card {
+    transition: all 0.3s ease;
+    border-left: 4px solid;
+}
+
+.achievement-card:hover {
+    border-left-width: 6px;
+    transform: translateX(5px);
+}

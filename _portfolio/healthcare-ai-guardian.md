@@ -3,6 +3,7 @@ title: "HealthCare AI Guardian - Preventive Health Platform"
 excerpt: "🥇 VOID Hackathon Winner | AI/ML-powered preventive health platform with early disease detection using deep learning models.<br/><img src='/images/healthcare-ai.png'>"
 collection: portfolio
 github: "https://github.com/Sarthakm811/HealthCare-AI-Guardian"
+difficulty: "Expert"
 tags:
   - AI/ML
   - Healthcare
@@ -11,6 +12,8 @@ tags:
   - Python
   - Flask
 ---
+
+<span class="difficulty-badge difficulty-expert">🚀 Expert</span>
 
 ## 🏆 VOID Hackathon Winner (2024)
 **Ranked 1st among 80+ national teams** in a 24-hour AI/ML hackathon

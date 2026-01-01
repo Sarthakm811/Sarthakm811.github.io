@@ -3,7 +3,10 @@ title: "NASA Meteorite Data Analysis"
 excerpt: "Analysis of 45,716 meteorite records to improve data interpretability by 30%.<br/><img src='/images/nasa.png'>"
 collection: portfolio
 github: "https://github.com/Sarthakm811/NASA-Meteorite"
+difficulty: "Intermediate"
 ---
+
+<span class="difficulty-badge difficulty-intermediate">🎯 Intermediate</span>
 
 ### Project Overview
 [cite_start]Performed a large-scale analysis of global meteorite landing data provided by NASA[cite: 29].

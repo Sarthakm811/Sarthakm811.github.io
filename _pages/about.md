@@ -84,6 +84,23 @@ I'm **Sarthak Mahajan**, a B.Tech Computer Science student at **Shri Vaishnav Vi
 
 ---
 
+## 💪 Skill Proficiency
+
+**Python** █████████░ 92%  
+**AI/ML & Data Science** █████████░ 90%  
+**AWS Cloud** ████████░░ 80%  
+**Data Analysis** █████████░ 85%  
+**Deep Learning** █████████░ 88%  
+**SQL & Databases** ████████░░ 82%
+
+---
+
+## 📊 GitHub Stats
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sarthakm811&show_icons=true&theme=dark&hide_border=true&count_private=true)](https://github.com/Sarthakm811)
+
+---
+
 ## 🚀 Featured Projects
 
 {% include base_path %}
