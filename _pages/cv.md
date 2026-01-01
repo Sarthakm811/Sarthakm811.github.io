@@ -9,6 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
+<div style="text-align: center; margin: 30px 0;">
+  <a href="/files/resume.pdf" class="btn btn--primary btn--large" download>📥 Download Resume (PDF)</a>
+</div>
+
+---
+
+
 Education
 ======
 * **B.Tech in Computer Science Engineering**, Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV), Indore
