@@ -1,42 +1,6 @@
-/* Portfolio Enhancement Styles */
+/* Portfolio Enhancement Styles - Light & Dark Mode Compatible */
 
-/* Light Mode Support */
-@media (prefers-color-scheme: light) {
-    .skill-bar-container {
-        background: rgba(0, 0, 0, 0.05) !important;
-        border: 1px solid rgba(0, 0, 0, 0.1) !important;
-    }
-
-    .skill-bar {
-        background: rgba(0, 0, 0, 0.1) !important;
-    }
-
-    .difficulty-badge {
-        color: #000 !important;
-    }
-
-    .archive__item:hover {
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
-    }
-}
-
-/* Dark Mode (Default) */
-@media (prefers-color-scheme: dark) {
-    .skill-bar-container {
-        background: rgba(255, 255, 255, 0.05);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .skill-bar {
-        background: rgba(255, 255, 255, 0.1);
-    }
-
-    .archive__item:hover {
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-    }
-}
-
-/* Skill Proficiency Bars */
+/* ======== UNIVERSAL STYLES ======== */
 .skill-bar-container {
     margin: 15px 0;
     padding: 12px;
@@ -64,13 +28,12 @@
     from {
         width: 0 !important;
     }
-
     to {
         /* width is set by inline styles */
     }
 }
 
-/* Project Cards with Hover Effects */
+/* Project Cards */
 .archive__item {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 12px;
@@ -81,39 +44,39 @@
     transform: translateY(-8px);
 }
 
-/* Difficulty Badge */
+/* Difficulty Badges - Base */
 .difficulty-badge {
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 0.85em;
-    font-weight: 600;
-    margin-right: 8px;
-    margin-top: 10px;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    display: inline-block !important;
+    padding: 6px 12px !important;
+    border-radius: 20px !important;
+    font-size: 0.85em !important;
+    font-weight: 600 !important;
+    margin-right: 8px !important;
+    margin-top: 10px !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
 }
 
 .difficulty-beginner {
-    background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+    background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%) !important;
     color: #000 !important;
 }
 
 .difficulty-intermediate {
-    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%) !important;
     color: #000 !important;
 }
 
 .difficulty-advanced {
-    background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
-    color: white !important;
+    background: linear-gradient(135deg, #30cfd0 0%, #330867 100%) !important;
+    color: #fff !important;
 }
 
 .difficulty-expert {
-    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%) !important;
     color: #000 !important;
 }
 
-/* Impact Cards Hover */
+/* Impact Cards */
 .impact-card {
     transition: all 0.3s ease;
     transform: scale(1);
@@ -121,18 +84,6 @@
 
 .impact-card:hover {
     transform: scale(1.05);
-}
-
-@media (prefers-color-scheme: light) {
-    .impact-card:hover {
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    .impact-card:hover {
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
-    }
 }
 
 /* Achievement Cards */
@@ -144,4 +95,114 @@
 .achievement-card:hover {
     border-left-width: 6px;
     transform: translateX(5px);
+}
+
+/* ======== DARK MODE ======== */
+@media (prefers-color-scheme: dark) {
+    .skill-bar-container {
+        background: rgba(255, 255, 255, 0.05) !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        color: #fff !important;
+    }
+
+    .skill-bar {
+        background: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .skill-progress {
+        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%) !important;
+    }
+
+    .archive__item:hover {
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .impact-card:hover {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+    }
+}
+
+/* ======== LIGHT MODE ======== */
+@media (prefers-color-scheme: light) {
+    body,
+    .page {
+        color: #333 !important;
+    }
+
+    .skill-bar-container {
+        background: #f5f5f5 !important;
+        border: 1px solid #ddd !important;
+        color: #333 !important;
+    }
+
+    .skill-bar {
+        background: #e0e0e0 !important;
+    }
+
+    .skill-progress {
+        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%) !important;
+        box-shadow: 0 0 10px rgba(102, 126, 234, 0.6) !important;
+    }
+
+    /* Ensure text labels are visible in light mode */
+    .skill-bar-container::before,
+    .skill-bar-container::after {
+        color: #333 !important;
+    }
+
+    .archive__item {
+        background: #fff !important;
+    }
+
+    .archive__item h2,
+    .archive__item h3,
+    .archive__item p {
+        color: #333 !important;
+    }
+
+    .archive__item:hover {
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12) !important;
+    }
+
+    /* Difficulty badges - ensure contrast in light mode */
+    .difficulty-badge {
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+        border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .difficulty-beginner,
+    .difficulty-intermediate,
+    .difficulty-expert {
+        color: #000 !important;
+        text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5) !important;
+    }
+
+    .difficulty-advanced {
+        color: #fff !important;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .impact-card {
+        background: #fff !important;
+        color: #333 !important;
+    }
+
+    .impact-card:hover {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .impact-card h2,
+    .impact-card p {
+        color: #333 !important;
+    }
+
+    .achievement-card {
+        background: #fff !important;
+        color: #333 !important;
+    }
+
+    .achievement-card h3,
+    .achievement-card p {
+        color: #333 !important;
+    }
 }
