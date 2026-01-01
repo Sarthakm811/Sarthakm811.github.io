@@ -1,6 +1,6 @@
 ---
 title: "NASA Meteorite Data Analysis"
-excerpt: "Analysis of 45,716 meteorite records to improve data interpretability by 30%.<br/><img src='/images/nasa.png'>"
+excerpt: "Analysis of 45,716 meteorite records to improve data interpretability by 30%."
 collection: portfolio
 github: "https://github.com/Sarthakm811/NASA-Meteorite"
 difficulty: "Intermediate"
