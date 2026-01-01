@@ -47,6 +47,15 @@
     box-sizing: border-box !important;
 }
 
+.masthead__menu,
+.greedy-nav {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
 .site-title {
     margin: 0 !important;
     padding: 0 !important;
