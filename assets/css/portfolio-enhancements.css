@@ -11,25 +11,7 @@
     display: none !important;
 }
 
-/* Remove visible empty boxes in header - ALWAYS */
-.page__hero .wrapper,
-.page__hero .wrapper>div,
-.page__hero-caption,
-.page__lead,
-.page__hero .page__lead,
-.page__hero-actions,
-.page__hero .btn {
-    border: none !important;
-    box-shadow: none !important;
-    display: none !important;
-}
-
-/* Hide action buttons area completely if empty */
-.page__hero-actions:empty {
-    display: none !important;
-}
-
-/* Fix masthead/title bar styling - pure black with white text */
+/* Fix masthead/title bar - pure black with white text */
 .masthead,
 body .masthead,
 html body .masthead {
@@ -50,14 +32,6 @@ html body .masthead__inner-wrap {
     width: 100% !important;
     max-width: none !important;
     margin: 0 auto !important;
-    box-sizing: border-box !important;
-}
-
-.masthead .wrapper {
-    width: 100% !important;
-    max-width: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
     box-sizing: border-box !important;
 }
 
@@ -126,7 +100,6 @@ body .greedy-nav a,
     from {
         width: 0 !important;
     }
-
     to {
         /* width is set by inline styles */
     }
@@ -143,7 +116,7 @@ body .greedy-nav a,
     transform: translateY(-8px);
 }
 
-/* Difficulty Badges - Base */
+/* Difficulty Badges */
 .difficulty-badge {
     display: inline-block !important;
     padding: 6px 12px !important;
@@ -196,7 +169,7 @@ body .greedy-nav a,
     transform: translateX(5px);
 }
 
-/* Research cards (replaces inline styles) */
+/* Research cards */
 .research-card {
     padding: 20px !important;
     margin: 20px 0 !important;
@@ -237,6 +210,15 @@ body .greedy-nav a,
 
 /* ======== DARK MODE ======== */
 @media (prefers-color-scheme: dark) {
+    body {
+        background: #000 !important;
+    }
+
+    .page,
+    .page__inner-wrap {
+        background: #000 !important;
+    }
+
     .skill-bar-container {
         background: rgba(255, 255, 255, 0.05) !important;
         border: 1px solid rgba(255, 255, 255, 0.1) !important;
@@ -251,8 +233,23 @@ body .greedy-nav a,
         background: linear-gradient(90deg, #667eea 0%, #764ba2 100%) !important;
     }
 
+    .archive__item {
+        background: rgba(255, 255, 255, 0.03) !important;
+        color: #fff !important;
+    }
+
+    .archive__item h2,
+    .archive__item h3,
+    .archive__item p {
+        color: #fff !important;
+    }
+
     .archive__item:hover {
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .impact-card {
+        color: #fff !important;
     }
 
     .impact-card:hover {
@@ -279,83 +276,15 @@ body .greedy-nav a,
     .contact-card a {
         color: #7ab0ff !important;
     }
-
-    /* Dark mode masthead: pure black bar with white text */
-    .masthead,
-    .masthead__inner-wrap,
-    .masthead__menu,
-    .greedy-nav {
-        background: #000 !important;
-        border-bottom: none !important;
-        width: 100% !important;
-        max-width: none !important;
-        margin: 0 !important;
-        padding: 0 18px !important;
-        box-sizing: border-box !important;
-    }
-
-    .site-title,
-    .greedy-nav a,
-    .greedy-nav .visible-links a {
-        color: #fff !important;
-    }
-
-    .greedy-nav .visible-links a:hover,
-    .greedy-nav .visible-links .selected>a {
-        color: #ff5c5c !important;
-    }
 }
 
 /* ======== LIGHT MODE ======== */
 @media (prefers-color-scheme: light) {
-
-    body,
-    .page {
+    body {
+        background: #fff !important;
         color: #333 !important;
     }
 
-    /* Light mode masthead: pure black bar with white text */
-    .masthead,
-    .masthead__inner-wrap,
-    .masthead__menu,
-    .greedy-nav,
-    body .masthead,
-    body .masthead__inner-wrap,
-    body .masthead__menu,
-    body .greedy-nav,
-    html body .masthead,
-    html body .masthead__inner-wrap {
-        background: #000 !important;
-        border-bottom: none !important;
-        width: 100% !important;
-        max-width: none !important;
-        margin: 0 !important;
-        padding: 0 18px !important;
-        box-sizing: border-box !important;
-    }
-
-    .site-title,
-    .greedy-nav a,
-    .greedy-nav .visible-links a,
-    body .site-title,
-    body .greedy-nav a,
-    html body .site-title {
-        color: #fff !important;
-    }
-
-    .greedy-nav .visible-links a:hover,
-    .greedy-nav .visible-links .selected>a {
-        color: #ff5c5c !important;
-    }
-
-    /* Hide hero/header section in light mode */
-    .page__hero,
-    .page__lead,
-    .page__hero--overlay {
-        display: none !important;
-    }
-
-    /* Force page background to transparent in light mode */
     .page,
     body .page,
     html body .page,
@@ -364,6 +293,7 @@ body .greedy-nav a,
     html body .page__inner-wrap {
         background: transparent !important;
         background-color: transparent !important;
+        color: #333 !important;
     }
 
     .skill-bar-container {
@@ -381,14 +311,9 @@ body .greedy-nav a,
         box-shadow: 0 0 10px rgba(102, 126, 234, 0.6) !important;
     }
 
-    /* Ensure text labels are visible in light mode */
-    .skill-bar-container::before,
-    .skill-bar-container::after {
-        color: #333 !important;
-    }
-
     .archive__item {
         background: #fff !important;
+        color: #333 !important;
     }
 
     .archive__item h2,
@@ -401,7 +326,6 @@ body .greedy-nav a,
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12) !important;
     }
 
-    /* Difficulty badges - ensure contrast in light mode */
     .difficulty-badge {
         text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
         border: 1px solid rgba(0, 0, 0, 0.1) !important;
@@ -420,7 +344,13 @@ body .greedy-nav a,
     }
 
     .impact-card {
-        background: #fff !important;
+        background: transparent !important;
+        color: #333 !important;
+    }
+
+    .impact-card h2,
+    .impact-card h3,
+    .impact-card p {
         color: #333 !important;
     }
 
@@ -428,12 +358,7 @@ body .greedy-nav a,
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
     }
 
-    .impact-card h2,
-    .impact-card p {
-        color: #333 !important;
-    }
-
-    /* Ensure text in inline gradient cards is dark and readable */
+    /* Ensure gradient cards have dark text */
     div[style*="linear-gradient"] h2,
     div[style*="linear-gradient"] h3,
     div[style*="linear-gradient"] p,
@@ -442,7 +367,7 @@ body .greedy-nav a,
     }
 
     .achievement-card {
-        background: #fff !important;
+        background: transparent !important;
         color: #333 !important;
     }
 
@@ -471,35 +396,4 @@ body .greedy-nav a,
     .contact-card a {
         color: #0f52ba !important;
     }
-
-    color: #fff !important;
-    border: 1px solid #007bff !important;
-}
-
-.btn--primary:hover {
-    background: #0056b3 !important;
-    border-color: #0056b3 !important;
-}
-
-/* Fix extra space and gray area */
-.page__hero {
-    display: none !important;
-}
-
-.page__lead {
-    display: none !important;
-}
-
-#main {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-}
-
-.masthead {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-.masthead__inner-wrap {
-    padding: 10px !important;
 }
