@@ -167,15 +167,17 @@
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
     }
 
-    /* Dark mode masthead */
-    .masthead__inner-wrap {
-        background: transparent !important;
+    /* Dark mode - keep masthead minimal, let theme handle it */
+    .masthead {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
     }
 
-    .site-title,
+    .site-title {
+        color: inherit !important;
+    }
+
     .greedy-nav a {
-        color: #fff !important;
+        color: inherit !important;
     }
 
     .greedy-nav .visible-links a:hover {
