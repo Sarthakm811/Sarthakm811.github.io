@@ -1,46 +1,93 @@
 ---
-layout: single
-title: "About Me"
 permalink: /
+title: "Sarthak Mahajan"
+excerpt: "AI/ML Specialist | Data Scientist | AWS Cloud Club Lead"
 author_profile: true
-redirect_from:
+redirect_from: 
   - /about/
   - /about.html
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /images/header-bg.jpg
+  actions:
+    - label: "View Portfolio"
+      url: "/portfolio/"
+    - label: "Download CV"
+      url: "/files/cv.pdf"
 ---
 
-# Sarthak Mahajan
-### AI/ML Specialist | Full-Stack Engineer | AWS Technical Lead
+## Hi there! 👋
 
-I am a B.Tech Computer Science student at **Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV)**, Indore, with a **GPA of 8.4**. My expertise lies at the intersection of Data Science and Full-Stack Engineering, focusing on building autonomous AI agents and high-performance trading systems.
-
-## 🏆 Key Achievements
-* **VOID Hackathon Winner**: Ranked 1st among 80+ national teams in a 24-hour AI/ML hackathon.
-* **AWS Cloud Club Lead**: Managing a technical community of 30+ students and mentoring 10+ juniors on cloud deployment.
-* **Algorithmically Strong**: Solved **100+ Data Structures & Algorithms** problems on HackerRank.
-
-## 🛠️ Technical Arsenal
-* **Languages**: Python, C++, SQL, Java (Core), HTML5/CSS.
-* **AI/ML & Data**: Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Generative AI Orchestration.
-* **Full-Stack ML**: React, Node.js, FastAPI, TypeScript.
-* **Cloud & Tools**: AWS (EC2, S3, IAM), Gemini AI, Kaggle API.
-
-## 📊 Impactful Projects
-I build systems that solve real-world data challenges:
-
-* **AI Data Science Research Agent**: Developed an AI-powered platform using **Streamlit** and **Gemini AI** for automated dataset search (via **Kaggle API**), auto-EDA, and multi-model training with reproducible Python code export.
-* **Gold Price Prediction**: Engineered a regression model on 10+ years of historical data; improved prediction accuracy by 12% through advanced feature engineering, achieving an **$R^2$ of 0.92** and an 18% reduction in MSE.
-* **Adidas US Sales Analysis**: Conducted a deep-dive exploratory data analysis (EDA) on ~9,600 records using **Pandas** and **Matplotlib** to identify top retailers and high-performing regional sales methods.
-* **NASA Meteorite Landings**: Analyzed a dataset of 45,716 meteorite landings using **Python** to communicate scientific insights and geographic trends for data-driven research interpretation.
-
-## 📜 Certifications (2025)
-* **IBM**: Data Science Foundations - Level 1.
-* **IBM**: Machine Learning for Data Science Project.
-* **Google**: Level 3 Generative AI.
-* **Google**: The Basics of Cloud Compute.
-* **Google**: Develop GenAI Apps using Streamlit.
-* **Google**: Prompt Design using Vertex AI.
-* **AWS Academy**: Generative AI Foundations.
-* **Industry Simulations**: Data Analytics at **Deloitte** and **Tata**.
+I'm **Sarthak Mahajan**, a B.Tech Computer Science student at **Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV)** in Indore with a **GPA of 8.4**. I specialize in building intelligent systems at the intersection of **AI/ML** and **Full-Stack Engineering**.
 
 ---
-**Let's build something intelligent.** [LinkedIn](https://www.linkedin.com/in/sarthak-mahajan-b5926a296) | [GitHub](https://github.com/Sarthakm811) | [Email](mailto:sarthakm811@gmail.com)
+
+## 🏆 Achievements
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
+  <div style="padding: 20px; border: 1px solid #333; border-radius: 8px;">
+    <h3>🥇 VOID Hackathon Winner</h3>
+    <p>Ranked <strong>1st among 80+ teams</strong> in a national 24-hour AI/ML hackathon</p>
+  </div>
+  <div style="padding: 20px; border: 1px solid #333; border-radius: 8px;">
+    <h3>☁️ AWS Cloud Club Lead</h3>
+    <p>Managing <strong>30+ students</strong> and mentoring <strong>10+ juniors</strong> on cloud deployment</p>
+  </div>
+  <div style="padding: 20px; border: 1px solid #333; border-radius: 8px;">
+    <h3>💻 100+ DSA Problems</h3>
+    <p>Strong algorithmic foundation with <strong>100+ solutions</strong> on HackerRank</p>
+  </div>
+</div>
+
+---
+
+## 🛠️ Technical Skills
+
+**Languages & Frameworks**  
+`Python` `C++` `SQL` `Java` `HTML5/CSS` `React` `Node.js` `FastAPI` `TypeScript`
+
+**AI/ML & Data Science**  
+`Scikit-learn` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Generative AI` `Streamlit`
+
+**Cloud & DevOps**  
+`AWS (EC2, S3, IAM)` `Gemini AI` `Kaggle API`
+
+---
+
+## 🚀 Featured Projects
+
+{% include base_path %}
+
+<div class="grid__wrapper">
+  {% for post in site.portfolio limit:4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
+[View All Projects →](/portfolio/){: .btn .btn--primary}
+
+---
+
+## 📜 Recent Certifications (2025)
+
+- 🎓 **IBM**: Data Science Foundations - Level 1
+- 🎓 **IBM**: Machine Learning for Data Science Project  
+- 🎓 **Google**: Level 3 Generative AI
+- 🎓 **Google**: Develop GenAI Apps using Streamlit
+- 🎓 **AWS Academy**: Generative AI Foundations
+- 🎓 **Deloitte & Tata**: Data Analytics Simulations
+
+[View Complete CV →](/cv/){: .btn .btn--info}
+
+---
+
+## 📫 Let's Connect!
+
+I'm always interested in collaborating on AI/ML projects or discussing new opportunities. Feel free to reach out!
+
+<div style="text-align: center; margin: 30px 0;">
+  <a href="https://github.com/Sarthakm811" class="btn btn--primary" style="margin: 5px;">GitHub</a>
+  <a href="https://www.linkedin.com/in/sarthak-mahajan-b5926a296" class="btn btn--primary" style="margin: 5px;">LinkedIn</a>
+  <a href="mailto:sarthakm811@gmail.com" class="btn btn--primary" style="margin: 5px;">Email</a>
+</div>
