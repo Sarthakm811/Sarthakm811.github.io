@@ -192,21 +192,29 @@
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
     }
 
-    /* Dark mode - keep masthead minimal, let theme handle it */
-    .masthead {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    /* Dark mode masthead: full-width black bar with subtle divider */
+    .masthead,
+    .masthead__inner-wrap,
+    .masthead__menu,
+    .greedy-nav {
+        background: #0a0a0a !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.14) !important;
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 0 18px !important;
+        box-sizing: border-box !important;
     }
 
-    .site-title {
-        color: inherit !important;
+    .site-title,
+    .greedy-nav a,
+    .greedy-nav .visible-links a {
+        color: #e8e8e8 !important;
     }
 
-    .greedy-nav a {
-        color: inherit !important;
-    }
-
-    .greedy-nav .visible-links a:hover {
-        color: #667eea !important;
+    .greedy-nav .visible-links a:hover,
+    .greedy-nav .visible-links .selected>a {
+        color: #ff5c5c !important;
     }
 }
 
@@ -315,7 +323,7 @@
     }
 }
 
-/* Fix header action buttons and navigation in light mode */
+/* Fix header action buttons in light mode */
 .page__hero--overlay {
     background: #f5f5f5 !important;
 }
@@ -334,26 +342,6 @@
 .btn--primary:hover {
     background: #0056b3 !important;
     border-color: #0056b3 !important;
-}
-
-/* Fix masthead/navigation */
-.masthead {
-    background: #fff !important;
-    border-bottom: 1px solid #ddd !important;
-}
-
-.masthead__inner-wrap {
-    background: #fff !important;
-}
-
-.site-title,
-.greedy-nav a {
-    color: #333 !important;
-}
-
-.greedy-nav .visible-links a:hover {
-    color: #007bff !important;
-}
 }
 
 /* Fix extra space and gray area */
