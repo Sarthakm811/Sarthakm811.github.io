@@ -23,12 +23,19 @@
 .masthead {
     background: transparent !important;
     border-bottom: none !important;
+    width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
 }
 
 .masthead__inner-wrap {
     background: transparent !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
-    padding: 10px 0 !important;
+    padding: 10px 15px !important;
+    max-width: 100% !important;
 }
 
 .site-title {
@@ -332,8 +339,24 @@
 }
 
 /* Fix extra space and gray area */
-.page__hero { display: none !important; }
-.page__lead { display: none !important; }
-#main { margin-top: 0 !important; padding-top: 0 !important; }
-.masthead { margin: 0 !important; padding: 0 !important; }
-.masthead__inner-wrap { padding: 10px !important; }
+.page__hero {
+    display: none !important;
+}
+
+.page__lead {
+    display: none !important;
+}
+
+#main {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.masthead {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.masthead__inner-wrap {
+    padding: 10px !important;
+}
