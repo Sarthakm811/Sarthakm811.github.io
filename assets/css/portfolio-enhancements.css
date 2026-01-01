@@ -100,6 +100,7 @@ body .greedy-nav a,
     from {
         width: 0 !important;
     }
+
     to {
         /* width is set by inline styles */
     }
@@ -275,125 +276,5 @@ body .greedy-nav a,
 
     .contact-card a {
         color: #7ab0ff !important;
-    }
-}
-
-/* ======== LIGHT MODE ======== */
-@media (prefers-color-scheme: light) {
-    body {
-        background: #fff !important;
-        color: #333 !important;
-    }
-
-    .page,
-    body .page,
-    html body .page,
-    .page__inner-wrap,
-    body .page__inner-wrap,
-    html body .page__inner-wrap {
-        background: transparent !important;
-        background-color: transparent !important;
-        color: #333 !important;
-    }
-
-    .skill-bar-container {
-        background: #f5f5f5 !important;
-        border: 1px solid #ddd !important;
-        color: #333 !important;
-    }
-
-    .skill-bar {
-        background: #e0e0e0 !important;
-    }
-
-    .skill-progress {
-        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%) !important;
-        box-shadow: 0 0 10px rgba(102, 126, 234, 0.6) !important;
-    }
-
-    .archive__item {
-        background: #fff !important;
-        color: #333 !important;
-    }
-
-    .archive__item h2,
-    .archive__item h3,
-    .archive__item p {
-        color: #333 !important;
-    }
-
-    .archive__item:hover {
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12) !important;
-    }
-
-    .difficulty-badge {
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
-        border: 1px solid rgba(0, 0, 0, 0.1) !important;
-    }
-
-    .difficulty-beginner,
-    .difficulty-intermediate,
-    .difficulty-expert {
-        color: #000 !important;
-        text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5) !important;
-    }
-
-    .difficulty-advanced {
-        color: #fff !important;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
-    }
-
-    .impact-card {
-        background: transparent !important;
-        color: #333 !important;
-    }
-
-    .impact-card h2,
-    .impact-card h3,
-    .impact-card p {
-        color: #333 !important;
-    }
-
-    .impact-card:hover {
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
-    }
-
-    /* Ensure gradient cards have dark text */
-    div[style*="linear-gradient"] h2,
-    div[style*="linear-gradient"] h3,
-    div[style*="linear-gradient"] p,
-    div[style*="linear-gradient"] strong {
-        color: #000 !important;
-    }
-
-    .achievement-card {
-        background: transparent !important;
-        color: #333 !important;
-    }
-
-    .achievement-card h3,
-    .achievement-card p {
-        color: #333 !important;
-    }
-
-    .research-card {
-        background: #f8f9fb !important;
-        color: #111 !important;
-        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12) !important;
-    }
-
-    .research-card a {
-        color: #0f52ba !important;
-    }
-
-    .contact-card {
-        background: #f9fafc !important;
-        color: #121212 !important;
-        border-color: rgba(0, 0, 0, 0.06) !important;
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12) !important;
-    }
-
-    .contact-card a {
-        color: #0f52ba !important;
     }
 }
