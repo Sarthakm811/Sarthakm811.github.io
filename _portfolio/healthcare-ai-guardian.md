@@ -108,7 +108,31 @@ As part of a **4-member team**, I contributed to:
 
 ---
 
-### 🚀 Future Enhancements
+### � Challenges & Solutions
+
+**Challenge 1: Real-time ML Inference**  
+❌ Problem: Model inference was too slow for user experience  
+✅ Solution: Implemented async processing with loading states; optimized model serving with Flask caching
+
+**Challenge 2: Image Upload & Preprocessing**  
+❌ Problem: Large medical scans caused upload failures  
+✅ Solution: Added client-side image compression; implemented chunked uploads with Multer
+
+**Challenge 3: Time Constraints**  
+❌ Problem: 24-hour deadline with complex full-stack architecture  
+✅ Solution: Divided work into parallel streams—frontend, backend, ML service; continuous integration
+
+---
+
+### 🎓 Lessons Learned
+- **Microservices Architecture:** Separating ML service from main backend improved scalability and debugging
+- **User-Centric Design:** Healthcare apps require clear error messages and confidence scores to build trust
+- **Team Coordination:** Version control branching strategy was crucial for parallel development under pressure
+- **API Design:** RESTful conventions and consistent error handling saved integration time
+
+---
+
+### �🚀 Future Enhancements
 - Integration with wearable devices (Fitbit, Apple Watch)
 - Expanded disease detection models (Diabetes, Heart Disease)
 - Telemedicine features for doctor consultations

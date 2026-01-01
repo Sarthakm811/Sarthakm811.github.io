@@ -1,19 +1,19 @@
 /* Custom styles to fix profile photo */
 .author__avatar img {
-  width: 175px !important;
-  height: 175px !important;
-  max-width: 175px !important;
-  max-height: 175px !important;
-  border-radius: 50% !important;
-  object-fit: cover !important;
-  object-position: center !important;
-  display: block !important;
+    width: 175px !important;
+    height: 175px !important;
+    max-width: 175px !important;
+    max-height: 175px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block !important;
 }
 
 /* Ensure circular shape on all screen sizes */
 @media (min-width: 64em) {
-  .author__avatar img {
-    width: 175px !important;
-    height: 175px !important;
-  }
+    .author__avatar img {
+        width: 175px !important;
+        height: 175px !important;
+    }
 }
