@@ -19,9 +19,9 @@
     display: none !important;
 }
 
-/* Fix masthead/title bar styling for both modes */
+/* Fix masthead/title bar styling - pure black with white text */
 .masthead {
-    background: transparent !important;
+    background: #000 !important;
     border-bottom: none !important;
     width: 100% !important;
     margin: 0 !important;
@@ -30,8 +30,8 @@
 }
 
 .masthead__inner-wrap {
-    background: transparent !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    background: #000 !important;
+    border-bottom: none !important;
     padding: 10px 16px !important;
     width: 100% !important;
     max-width: none !important;
@@ -49,6 +49,7 @@
 
 .masthead__menu,
 .greedy-nav {
+    background: #000 !important;
     width: 100% !important;
     max-width: none !important;
     margin: 0 !important;
@@ -60,6 +61,7 @@
     margin: 0 !important;
     padding: 0 !important;
     font-size: 1.2em !important;
+    color: #fff !important;
 }
 
 .greedy-nav {
@@ -69,6 +71,12 @@
 .greedy-nav a {
     margin-right: 15px !important;
     text-decoration: none !important;
+    color: #fff !important;
+}
+
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links .selected>a {
+    color: #ff5c5c !important;
 }
 
 .skill-bar-container {
