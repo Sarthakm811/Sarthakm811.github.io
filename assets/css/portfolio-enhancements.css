@@ -372,6 +372,14 @@
         color: #333 !important;
     }
 
+    /* Ensure text in inline gradient cards is dark and readable */
+    div[style*="linear-gradient"] h2,
+    div[style*="linear-gradient"] h3,
+    div[style*="linear-gradient"] p,
+    div[style*="linear-gradient"] strong {
+        color: #000 !important;
+    }
+
     .achievement-card {
         background: #fff !important;
         color: #333 !important;
@@ -402,6 +410,7 @@
     .contact-card a {
         color: #0f52ba !important;
     }
+
     color: #fff !important;
     border: 1px solid #007bff !important;
 }
