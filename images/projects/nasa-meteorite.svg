@@ -1,0 +1,14 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#25134f"/>
+      <stop offset="1" stop-color="#30207a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g3)"/>
+  <circle cx="1100" cy="110" r="90" fill="#d6b8ff" opacity="0.3"/>
+  <rect x="120" y="150" width="1040" height="420" rx="36" fill="#21164f" stroke="#c39dff" stroke-opacity="0.42"/>
+  <text x="170" y="290" fill="#f2e8ff" font-size="64" font-family="Arial, sans-serif" font-weight="700">NASA Meteorite</text>
+  <text x="170" y="366" fill="#d2b0ff" font-size="52" font-family="Arial, sans-serif" font-weight="600">Data Analysis</text>
+  <text x="170" y="444" fill="#b9a6d8" font-size="30" font-family="Arial, sans-serif">45K+ Records • EDA • Visualization</text>
+</svg>

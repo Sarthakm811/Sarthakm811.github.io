@@ -1,0 +1,14 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2f5d"/>
+      <stop offset="1" stop-color="#123f78"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g1)"/>
+  <circle cx="1030" cy="180" r="180" fill="#1fc8ff" opacity="0.2"/>
+  <rect x="120" y="150" width="1040" height="420" rx="36" fill="#0b1f3d" stroke="#67c6ff" stroke-opacity="0.45"/>
+  <text x="170" y="290" fill="#d5edff" font-size="64" font-family="Arial, sans-serif" font-weight="700">AI Data Science</text>
+  <text x="170" y="370" fill="#83ccff" font-size="52" font-family="Arial, sans-serif" font-weight="600">Research Assistant</text>
+  <text x="170" y="445" fill="#9ac2e5" font-size="30" font-family="Arial, sans-serif">EDA • Gemini API • Auto-ML</text>
+</svg>

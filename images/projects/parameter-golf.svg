@@ -1,0 +1,14 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102322"/>
+      <stop offset="1" stop-color="#1a3a33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g5)"/>
+  <circle cx="190" cy="585" r="130" fill="#7bffce" opacity="0.24"/>
+  <rect x="120" y="150" width="1040" height="420" rx="36" fill="#16312d" stroke="#7dffcd" stroke-opacity="0.42"/>
+  <text x="170" y="290" fill="#e7fff7" font-size="64" font-family="Arial, sans-serif" font-weight="700">Parameter Golf</text>
+  <text x="170" y="366" fill="#abffd9" font-size="50" font-family="Arial, sans-serif" font-weight="600">16MB Language Model Challenge</text>
+  <text x="170" y="444" fill="#b9d8ca" font-size="30" font-family="Arial, sans-serif">Model Compression • Python • Benchmarking</text>
+</svg>

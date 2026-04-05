@@ -2,7 +2,7 @@
   "basics": {
     "name": "Sarthak Mahajan",
     "email": "sarthakm811@gmail.com",
-    "phone": "",
+    "phone": "+91-9893980989",
     "website": "https://Sarthakm811.github.io",
     "summary": "B.Tech CSE student at SVVV specializing in AI/ML, Data Science, and AWS Cloud. VOID Hackathon Winner and AWS Cloud Club Technical Lead.",
     "location": {
@@ -46,8 +46,8 @@
       "institution": "Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV)",
       "area": "B.Tech in Computer Science Engineering",
       "studyType": "Bachelor's",
-      "startDate": "2022",
-      "endDate": "2026",
+      "startDate": "2023",
+      "endDate": "2027",
       "gpa": "8.4",
       "courses": []
     }
@@ -132,6 +132,18 @@
       "date": "2024",
       "awarder": "National AI/ML Hackathon",
       "summary": "Ranked 1st among 80+ national teams in a 24-hour AI/ML hackathon"
+    },
+    {
+      "title": "Top 10 - Prayatna 3.0",
+      "date": "2024",
+      "awarder": "Prayatna Hackathon",
+      "summary": "Achieved Top 10 position in a 36-hour hackathon"
+    },
+    {
+      "title": "Best Team Collaboration Award",
+      "date": "2024",
+      "awarder": "Hackathon Jury",
+      "summary": "Recognized for effective teamwork and execution"
     }
   ],
   "certificates": [
@@ -212,6 +224,13 @@
       "date": "2024",
       "url": "",
       "description": "Analyzed a dataset of 45,716 meteorite landings using Python to communicate scientific insights and geographic trends for data-driven research interpretation."
+    },
+    {
+      "name": "Smart Traffic Management System for Emergency Vehicles",
+      "category": "Computer Vision",
+      "date": "2024",
+      "url": "",
+      "description": "Built a real-time emergency vehicle detection and traffic signal prioritization system using YOLO and OpenCV to improve critical response flow."
     }
   ]
 }

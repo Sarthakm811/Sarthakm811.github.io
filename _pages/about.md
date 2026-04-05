@@ -1,126 +1,304 @@
 ---
 permalink: /
-title: "Sarthak Mahajan"
-excerpt: "Data Scientist | AI/ML Specialist | Data Analyst | AWS Cloud Enthusiast | Cloud Club Lead"
-author_profile: true
+title: ""
+excerpt: "AI Engineer and ML Developer portfolio"
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## Hi there! 👋
+<link rel="stylesheet" href="{{ base_path }}/assets/css/portfolio-redesign.css">
 
-I'm **Sarthak Mahajan**, a B.Tech Computer Science student at **Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV)** in Indore with a **GPA of 8.4**. I'm a passionate **Data Scientist** and **Data Analyst** specializing in **AI/ML engineering**, **AWS cloud computing**, and building intelligent systems that transform raw data into actionable insights through **advanced analytics** and **machine learning**.
+<main class="portfolio-home">
+  <!-- Sticky one-page navigation -->
+  <nav class="portfolio-top-nav" aria-label="Main section navigation">
+    <div class="portfolio-brand">Sarthak Mahajan | AI Portfolio</div>
+    <ul class="portfolio-nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
----
+  <!-- Hero section with headline, role, CTAs, and profile image -->
+  <section id="home" class="hero fade-in" data-section>
+    <div>
+      <p class="hero__eyebrow">AI Engineer Portfolio</p>
+      <h1 class="hero__title">I build intelligent AI systems that solve real-world problems</h1>
+      <p class="hero__subtitle">
+        AI Engineer / ML Developer |
+        <span id="typing-role" class="typing" aria-live="polite"></span>
+      </p>
+      <p class="hero__linkedin-headline">LinkedIn: B.Tech CSE 3rd Year | C | Python | Data Analyst | Data Scientist | AI/ML</p>
+      <div class="hero__cta">
+        <a class="portfolio-btn portfolio-btn--primary" href="#projects">View Projects</a>
+        <a class="portfolio-btn portfolio-btn--secondary" href="{{ base_path }}/files/Sarthak_Mahajan_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+      </div>
+    </div>
+    <div class="hero__image-wrap">
+      <img class="hero__image" src="{{ base_path }}/images/profile.png" alt="Portrait of Sarthak Mahajan">
+    </div>
+  </section>
 
-## 📊 Impact at a Glance
+  <!-- Experience highlights synced from resume -->
+  <section class="section-block fade-in" data-section>
+    <h2 class="section-title">Experience Highlights</h2>
+    <p class="section-subtitle">Leadership and delivery outcomes from GDSC and AWS Cloud Club involvement.</p>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
-  <div style="padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 10px; color: white;">
-    <h2 style="margin: 0; font-size: 2.5em; color: white;">🏆 1st</h2>
-    <p style="margin: 5px 0; color: white;">VOID Hackathon<br>80+ Teams</p>
-  </div>
-  <div style="padding: 20px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 10px; color: white;">
-    <h2 style="margin: 0; font-size: 2.5em; color: white;">👥 32</h2>
-    <p style="margin: 5px 0; color: white;">Students Led<br>AWS Cloud Club</p>
-  </div>
-  <div style="padding: 20px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 10px; color: white;">
-    <h2 style="margin: 0; font-size: 2.5em; color: white;">🎓 9</h2>
-    <p style="margin: 5px 0; color: white;">Certifications<br>IBM, AWS, Google</p>
-  </div>
-  <div style="padding: 20px; background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); border-radius: 10px; color: white;">
-    <h2 style="margin: 0; font-size: 2.5em; color: white;">💻 100+</h2>
-    <p style="margin: 5px 0; color: white;">DSA Problems<br>HackerRank</p>
-  </div>
-  <div style="padding: 20px; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 10px; color: white;">
-    <h2 style="margin: 0; font-size: 2.5em; color: white;">🚀 5</h2>
-    <p style="margin: 5px 0; color: white;">Production Projects<br>AI/ML & Full-Stack</p>
-  </div>
-</div>
+    <div class="metrics-grid">
+      <article class="metric-card">
+        <h3 class="metric-value">10+ AI/ML Workshops</h3>
+        <p class="metric-label">Completed hands-on sessions on preprocessing, feature engineering, and evaluation.</p>
+      </article>
+      <article class="metric-card">
+        <h3 class="metric-value">5+ AWS Sessions</h3>
+        <p class="metric-label">Conducted practical workshops on EC2, S3, IAM, and cloud deployment basics.</p>
+      </article>
+      <article class="metric-card">
+        <h3 class="metric-value">30+ Club Members</h3>
+        <p class="metric-label">Led technical activities and execution planning for an active cloud community.</p>
+      </article>
+      <article class="metric-card">
+        <h3 class="metric-value">10+ Juniors Mentored</h3>
+        <p class="metric-label">Guided students on architecture, DevOps basics, and project implementation.</p>
+      </article>
+    </div>
+  </section>
 
----
+  <!-- Skills grid -->
+  <section id="skills" class="section-block fade-in" data-section>
+    <h2 class="section-title">Skills</h2>
+    <p class="section-subtitle">Core capabilities used to build production-ready AI and data products.</p>
 
-## 🏆 Key Achievements
+    <div class="skill-grid">
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+        <h3>Python Development</h3>
+        <p>Clean backend logic, automation scripts, and ML pipelines.</p>
+      </article>
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fas fa-brain" aria-hidden="true"></i></div>
+        <h3>Machine Learning</h3>
+        <p>Model training, evaluation, optimization, and inference workflows.</p>
+      </article>
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
+        <h3>Data Science</h3>
+        <p>EDA, feature engineering, and business insight storytelling.</p>
+      </article>
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fas fa-database" aria-hidden="true"></i></div>
+        <h3>Data Analytics</h3>
+        <p>Structured analysis for decision support and trend discovery.</p>
+      </article>
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fas fa-cloud" aria-hidden="true"></i></div>
+        <h3>Cloud (AWS)</h3>
+        <p>Cloud fundamentals, deployment flow, and scalable architecture basics.</p>
+      </article>
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fas fa-laptop-code" aria-hidden="true"></i></div>
+        <h3>Full-Stack Integration</h3>
+        <p>Connecting frontend apps with APIs and AI model services.</p>
+      </article>
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></div>
+        <h3>Model Deployment</h3>
+        <p>Serving model outputs through practical, user-friendly web apps.</p>
+      </article>
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fas fa-users" aria-hidden="true"></i></div>
+        <h3>Technical Leadership</h3>
+        <p>Mentoring students and coordinating project delivery in teams.</p>
+      </article>
+    </div>
+  </section>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
-  <div style="padding: 25px; background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0.05) 100%); border-left: 4px solid #FFD700; border-radius: 8px;">
-    <h3>🥇 VOID Hackathon Winner</h3>
-    <p>Ranked <strong>1st among 80+ teams</strong> in a national 24-hour AI/ML hackathon</p>
-  </div>
-  <div style="padding: 25px; background: linear-gradient(135deg, rgba(0, 123, 255, 0.1) 0%, rgba(0, 123, 255, 0.05) 100%); border-left: 4px solid #007bff; border-radius: 8px;">
-    <h3>☁️ AWS Cloud Club Technical Lead</h3>
-    <p>Managing <strong>32 students</strong> and mentoring <strong>10+ juniors</strong> on cloud deployment</p>
-  </div>
-  <div style="padding: 25px; background: linear-gradient(135deg, rgba(40, 167, 69, 0.1) 0%, rgba(40, 167, 69, 0.05) 100%); border-left: 4px solid #28a745; border-radius: 8px;">
-    <h3>💻 100+ DSA Problems</h3>
-    <p>Strong algorithmic foundation with <strong>100+ solutions</strong> on HackerRank</p>
-  </div>
-</div>
+  <!-- Projects as visual cards with concise bullets -->
+  <section id="projects" class="section-block fade-in" data-section>
+    <h2 class="section-title">Projects</h2>
+    <p class="section-subtitle">Selected work focused on real-world AI, ML, and data challenges.</p>
 
----
+    <div class="projects-grid">
+      <article class="project-card">
+        <img src="{{ base_path }}/images/projects/ai-research.svg" alt="AI Data Science Research Assistant thumbnail" class="project-thumb">
+        <div class="project-content">
+          <h3>AI Data Science Research Assistant</h3>
+          <ul class="project-points">
+            <li>Automated EDA workflow from dataset fetch to analysis.</li>
+            <li>Generated plain-language insights using Gemini API.</li>
+            <li>Compared ML models with reproducible code exports.</li>
+            <li>Reduced manual iteration during experimentation.</li>
+          </ul>
+          <p class="tech-stack">Tech Stack: Python, Gemini API, Kaggle API, Pandas</p>
+          <div class="project-actions">
+            <a class="project-btn primary" href="https://github.com/Sarthakm811/AI-Data-Science-Research-Assistant" target="_blank" rel="noopener">View Code</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/ai-research-assistant/">Live Demo</a>
+          </div>
+        </div>
+      </article>
 
-## 🛠️ Technical Skills
+      <article class="project-card">
+        <img src="{{ base_path }}/images/projects/healthcare-ai.svg" alt="HealthCare AI Guardian thumbnail" class="project-thumb">
+        <div class="project-content">
+          <h3>HealthCare AI Guardian</h3>
+          <ul class="project-points">
+            <li>Built preventive health platform with AI disease screening.</li>
+            <li>Integrated deep learning models for real-time predictions.</li>
+            <li>Implemented secure user flow with dashboard analytics.</li>
+            <li>Won 1st place at VOID Hackathon.</li>
+          </ul>
+          <p class="tech-stack">Tech Stack: React, Node.js, Flask, MongoDB, Deep Learning</p>
+          <div class="project-actions">
+            <a class="project-btn primary" href="https://github.com/Sarthakm811/HealthCare-AI-Guardian" target="_blank" rel="noopener">View Code</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/healthcare-ai-guardian/">Live Demo</a>
+          </div>
+        </div>
+      </article>
 
-**💻 Languages & Frameworks**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+      <article class="project-card">
+        <img src="{{ base_path }}/images/projects/nasa-meteorite.svg" alt="NASA Meteorite analysis thumbnail" class="project-thumb">
+        <div class="project-content">
+          <h3>NASA Meteorite Data Analysis</h3>
+          <ul class="project-points">
+            <li>Analyzed 45K+ meteorite records from public NASA data.</li>
+            <li>Identified mass and region-wise landing patterns.</li>
+            <li>Created clear visuals for research readability.</li>
+            <li>Improved interpretation quality for stakeholders.</li>
+          </ul>
+          <p class="tech-stack">Tech Stack: Python, Jupyter, Pandas, Matplotlib</p>
+          <div class="project-actions">
+            <a class="project-btn primary" href="https://github.com/Sarthakm811/NASA-Meteorite" target="_blank" rel="noopener">View Code</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/nasa-meteorite-analysis/">Live Demo</a>
+          </div>
+        </div>
+      </article>
 
-**🤖 AI/ML & Data Science**  
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+      <article class="project-card">
+        <img src="{{ base_path }}/images/projects/adidas-sales.svg" alt="Adidas sales analysis thumbnail" class="project-thumb">
+        <div class="project-content">
+          <h3>Adidas US Sales Analysis</h3>
+          <ul class="project-points">
+            <li>Explored ~9,600 records for performance trends.</li>
+            <li>Highlighted top retailers and revenue channels.</li>
+            <li>Mapped regional demand and profitability drivers.</li>
+            <li>Built business-friendly visual summaries.</li>
+          </ul>
+          <p class="tech-stack">Tech Stack: Python, NumPy, Pandas, Matplotlib</p>
+          <div class="project-actions">
+            <a class="project-btn primary" href="https://github.com/Sarthakm811/adidas-us-sales-" target="_blank" rel="noopener">View Code</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/adidas-sales-analysis/">Live Demo</a>
+          </div>
+        </div>
+      </article>
 
-**☁️ Cloud & DevOps**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+      <article class="project-card">
+        <img src="{{ base_path }}/images/projects/parameter-golf.svg" alt="Parameter Golf thumbnail" class="project-thumb">
+        <div class="project-content">
+          <h3>Parameter Golf</h3>
+          <ul class="project-points">
+            <li>Worked on constrained LM experiments under 16MB budget.</li>
+            <li>Compared compact architecture configurations.</li>
+            <li>Tracked validation behavior across training runs.</li>
+            <li>Improved benchmark reproducibility with clear run notes.</li>
+          </ul>
+          <p class="tech-stack">Tech Stack: Python, Transformers, ML Benchmarking</p>
+          <div class="project-actions">
+            <a class="project-btn primary" href="https://github.com/Sarthakm811/parameter-golf" target="_blank" rel="noopener">View Code</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/parameter-golf-model-compression/">Live Demo</a>
+          </div>
+        </div>
+      </article>
 
----
+      <article class="project-card">
+        <img src="{{ base_path }}/images/projects/deepfake.svg" alt="DeepFake project thumbnail" class="project-thumb">
+        <div class="project-content">
+          <h3>DeepFake Analysis</h3>
+          <ul class="project-points">
+            <li>Ran computer vision experiments for deepfake analysis.</li>
+            <li>Prepared visual datasets for model-focused workflows.</li>
+            <li>Benchmarked preprocessing strategies for better signals.</li>
+            <li>Structured notebooks for faster iterative testing.</li>
+          </ul>
+          <p class="tech-stack">Tech Stack: Python, OpenCV, TensorFlow, Jupyter Notebook</p>
+          <div class="project-actions">
+            <a class="project-btn primary" href="https://github.com/Sarthakm811/DeepFake" target="_blank" rel="noopener">View Code</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/deepfake-analysis/">Live Demo</a>
+          </div>
+        </div>
+      </article>
 
-## 💪 Skill Proficiency
+      <article class="project-card">
+        <img src="{{ base_path }}/images/projects/smart-traffic.svg" alt="Smart traffic management system thumbnail" class="project-thumb">
+        <div class="project-content">
+          <h3>Smart Traffic Management System</h3>
+          <ul class="project-points">
+            <li>Built real-time emergency vehicle detection with computer vision.</li>
+            <li>Designed signal-priority logic for faster emergency response.</li>
+            <li>Integrated detection pipeline with traffic simulation alerts.</li>
+            <li>Improved decision flow for critical-route traffic handling.</li>
+          </ul>
+          <p class="tech-stack">Tech Stack: Python, YOLO, OpenCV, NumPy</p>
+          <div class="project-actions">
+            <a class="project-btn primary" href="{{ base_path }}/portfolio/smart-traffic-management/">View Code</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/smart-traffic-management/">Live Demo</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
 
-**Python** █████████░ 92%  
-**AI/ML & Data Science** █████████░ 90%  
-**AWS Cloud** ████████░░ 80%  
-**Data Analysis** █████████░ 85%  
-**Deep Learning** █████████░ 88%  
-**SQL & Databases** ████████░░ 82%
+  <!-- Proof and achievement counters -->
+  <section id="achievements" class="section-block fade-in" data-section>
+    <h2 class="section-title">Achievements</h2>
+    <p class="section-subtitle">Proof of execution, consistency, and project impact.</p>
 
----
+    <div class="metrics-grid">
+      <article class="metric-card">
+        <h3 class="metric-value">89% Accuracy Model</h3>
+        <p class="metric-label">Healthcare AI model tuned for reliable prediction quality.</p>
+      </article>
+      <article class="metric-card">
+        <h3 class="metric-value">1st / 80+ Teams</h3>
+        <p class="metric-label">Winner in VOID Hackathon AI/ML domain challenge.</p>
+      </article>
+      <article class="metric-card">
+        <h3 class="metric-value">Top 10 (Prayatna 3.0)</h3>
+        <p class="metric-label">Strong performance in a 36-hour hackathon environment.</p>
+      </article>
+      <article class="metric-card">
+        <h3 class="metric-value">100+ DSA Problems</h3>
+        <p class="metric-label">Consistent algorithmic practice on HackerRank.</p>
+      </article>
+    </div>
+  </section>
 
-## 📊 GitHub Stats
+  <!-- Contact block with links and optional form -->
+  <section id="contact" class="section-block fade-in" data-section>
+    <h2 class="section-title">Contact</h2>
+    <p class="section-subtitle">Open to internships, freelance AI work, and collaboration opportunities.</p>
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sarthakm811&show_icons=true&theme=dark&hide_border=true&count_private=true)](https://github.com/Sarthakm811)
+    <div class="contact-grid">
+      <div>
+        <ul class="contact-links">
+          <li><a href="tel:+919893980989"><i class="fas fa-phone" aria-hidden="true"></i> +91-9893980989</a></li>
+          <li><a href="mailto:sarthakm811@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> sarthakm811@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/sarthak-mahajan-b5926a296" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn Profile</a></li>
+          <li><a href="https://github.com/Sarthakm811" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> GitHub Repositories</a></li>
+        </ul>
+      </div>
 
----
+      <form class="contact-form" action="mailto:sarthakm811@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" placeholder="Tell me about your project or role" required></textarea>
+        <button class="portfolio-btn portfolio-btn--primary" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+</main>
 
-## 🚀 Featured Projects
-
-{% include base_path %}
-
-{% for post in site.portfolio limit:4 %}
-  {% include archive-single.html %}
-{% endfor %}
-
-[View All Projects →](/portfolio/){: .btn .btn--primary}
-
----
-
-## 📜 Recent Certifications (2025)
-
-- 🎓 **IBM**: Data Science Foundations - Level 1
-- 🎓 **IBM**: Machine Learning for Data Science Project  
-- 🎓 **Google**: Level 3 Generative AI
-- 🎓 **Google**: Develop GenAI Apps using Streamlit
-- 🎓 **AWS Academy**: Generative AI Foundations
-- 🎓 **Deloitte & Tata**: Data Analytics Simulations
-
-[View Complete CV →](/cv/){: .btn .btn--info}
-
----
-
-## 📫 Let's Connect!
-
-I'm always interested in collaborating on AI/ML projects or discussing new opportunities. Feel free to reach out!
-
-<div style="text-align: center; margin: 30px 0;">
-  <a href="https://github.com/Sarthakm811" class="btn btn--primary" style="margin: 5px;">GitHub</a>
-  <a href="https://www.linkedin.com/in/sarthak-mahajan-b5926a296" class="btn btn--primary" style="margin: 5px;">LinkedIn</a>
-  <a href="mailto:sarthakm811@gmail.com" class="btn btn--primary" style="margin: 5px;">Email</a>
-</div>
+<script src="{{ base_path }}/assets/js/portfolio-redesign.js" defer></script>

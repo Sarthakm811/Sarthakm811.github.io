@@ -9,10 +9,10 @@ difficulty: "Intermediate"
 <span class="difficulty-badge difficulty-intermediate">🎯 Intermediate</span>
 
 ### Project Overview
-[cite_start]Engineered a predictive model to forecast gold prices using over a decade of historical data[cite: 40, 41].
+Engineered a predictive regression model to forecast gold prices using over a decade of historical data.
 
 ### Impact & Results:
-* [cite_start]**Accuracy Boost**: Improved prediction accuracy by **12%** through targeted feature engineering[cite: 42].
-* [cite_start]**Performance**: Achieved an **R² score of 0.92** and an **18% reduction in MSE**[cite: 43].
+* **Accuracy Boost**: Improved prediction quality through targeted feature engineering and correlation analysis.
+* **Performance**: Achieved an **R² score of 0.92** and an **18% reduction in MSE**.
 
 [View Repository](https://github.com/Sarthakm811/Gold-Price-Prediction)

@@ -14,7 +14,15 @@ Education
 ======
 * **B.Tech in Computer Science Engineering**, Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV), Indore
   * GPA: 8.4/10.0
-  * Expected 2026
+  * 2023 - 2027 (Expected)
+
+Relevant Coursework
+======
+* Database Management Systems (DBMS)
+* Data Analytics
+* Data Visualization
+* Data Structures & Algorithms
+* Artificial Intelligence & Machine Learning
 
 Leadership & Involvement
 ======
@@ -52,6 +60,12 @@ Key Achievements
 ======
 * **VOID Hackathon Winner** (2024)
   * Ranked 1st among 80+ national teams in 24-hour AI/ML hackathon
+
+* **Prayatna 3.0 Hackathon**
+  * Achieved Top 10 position in a 36-hour hackathon
+
+* **Best Team Collaboration Award**
+  * Recognized for effective teamwork and execution
   
 * **AWS Cloud Club Technical Lead**
   * Managing technical community of 30+ students
@@ -80,5 +94,5 @@ Projects
 ---
 
 <div style="text-align: center; margin: 30px 0;">
-  <a href="/files/resume.pdf" class="btn btn--primary btn--large" download>📥 Download Resume (PDF)</a>
+  <a href="/files/Sarthak_Mahajan_Resume.pdf" class="btn btn--primary btn--large" download>📥 Download Resume (PDF)</a>
 </div>
