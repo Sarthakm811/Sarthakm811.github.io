@@ -212,11 +212,12 @@ redirect_from:
         </ul>
       </div>
 
-      <form class="contact-form" action="mailto:sarthakm811@gmail.com" method="post" enctype="text/plain">
+      <form id="contactForm" class="contact-form" action="#" method="post" novalidate>
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
         <textarea name="message" placeholder="Tell me about your project" required></textarea>
         <button class="portfolio-btn portfolio-btn--primary" type="submit">Send Message</button>
+        <p id="formStatus" class="form-status" aria-live="polite"></p>
       </form>
     </div>
   </section>

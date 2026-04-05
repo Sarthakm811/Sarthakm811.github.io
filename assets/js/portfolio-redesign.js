@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var sections = Array.prototype.slice.call(document.querySelectorAll('section[data-section]'));
     var loader = document.querySelector('.portfolio-loader');
     var hero = document.querySelector('.hero');
+    var contactForm = document.getElementById('contactForm');
+    var formStatus = document.getElementById('formStatus');
     var navHeight = 96;
 
     // Smooth anchor scrolling with sticky-nav offset.
@@ -131,6 +133,43 @@ document.addEventListener('DOMContentLoaded', function () {
 
     setActiveLink();
     document.addEventListener('scroll', setActiveLink, { passive: true });
+
+    // Reliable static-site contact flow using a prefilled email compose link.
+    if (contactForm) {
+        contactForm.addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            var nameInput = contactForm.querySelector('input[name="name"]');
+            var emailInput = contactForm.querySelector('input[name="email"]');
+            var messageInput = contactForm.querySelector('textarea[name="message"]');
+            var name = nameInput ? nameInput.value.trim() : '';
+            var email = emailInput ? emailInput.value.trim() : '';
+            var message = messageInput ? messageInput.value.trim() : '';
+
+            if (!name || !email || !message) {
+                if (formStatus) {
+                    formStatus.textContent = 'Please fill all fields before sending.';
+                }
+                return;
+            }
+
+            var subject = encodeURIComponent('Portfolio Contact from ' + name);
+            var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\nMessage:\n' + message);
+            var mailto = 'mailto:sarthakm811@gmail.com?subject=' + subject + '&body=' + body;
+
+            if (formStatus) {
+                formStatus.textContent = 'Opening your email app...';
+            }
+
+            window.location.href = mailto;
+
+            window.setTimeout(function () {
+                if (formStatus) {
+                    formStatus.textContent = 'If your email app did not open, email directly at sarthakm811@gmail.com.';
+                }
+            }, 1200);
+        });
+    }
 
     window.setTimeout(function () {
         if (loader) {
