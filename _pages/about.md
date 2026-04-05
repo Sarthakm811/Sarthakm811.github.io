@@ -1,5 +1,6 @@
 ---
 permalink: /
+layout: portfolio-home
 title: ""
 excerpt: "AI Engineer and ML Developer portfolio"
 author_profile: false
