@@ -1,13 +1,31 @@
 // One-page portfolio interactions: typing text, active nav state, and scroll reveal.
 document.addEventListener('DOMContentLoaded', function () {
     var phrases = [
-        'AI Engineer',
-        'ML Developer',
-        'Data Science Builder'
+        'ML Systems',
+        'Computer Vision',
+        'Applied AI Products'
     ];
     var typingEl = document.getElementById('typing-role');
     var navLinks = Array.prototype.slice.call(document.querySelectorAll('.portfolio-nav-links a'));
     var sections = Array.prototype.slice.call(document.querySelectorAll('section[data-section]'));
+    var navHeight = 96;
+
+    // Smooth anchor scrolling with sticky-nav offset.
+    navLinks.forEach(function (link) {
+        link.addEventListener('click', function (event) {
+            var targetId = link.getAttribute('href');
+            if (!targetId || targetId.charAt(0) !== '#') {
+                return;
+            }
+            var section = document.querySelector(targetId);
+            if (!section) {
+                return;
+            }
+            event.preventDefault();
+            var y = section.getBoundingClientRect().top + window.pageYOffset - navHeight;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        });
+    });
 
     if (typingEl) {
         var phraseIndex = 0;
@@ -62,13 +80,15 @@ document.addEventListener('DOMContentLoaded', function () {
         var observer = new IntersectionObserver(function (entries) {
             entries.forEach(function (entry) {
                 if (entry.isIntersecting) {
+                    entry.target.style.transitionDelay = (entry.target.dataset.delay || '0ms');
                     entry.target.classList.add('visible');
                     observer.unobserve(entry.target);
                 }
             });
         }, { threshold: 0.15 });
 
-        fadeEls.forEach(function (el) {
+        fadeEls.forEach(function (el, index) {
+            el.dataset.delay = (index % 4) * 80 + 'ms';
             observer.observe(el);
         });
     } else {
