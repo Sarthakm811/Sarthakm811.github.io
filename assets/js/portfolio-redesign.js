@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var typingEl = document.getElementById('typing-role');
     var navLinks = Array.prototype.slice.call(document.querySelectorAll('.portfolio-nav-links a'));
     var sections = Array.prototype.slice.call(document.querySelectorAll('section[data-section]'));
+    var loader = document.querySelector('.portfolio-loader');
+    var hero = document.querySelector('.hero');
     var navHeight = 96;
 
     // Smooth anchor scrolling with sticky-nav offset.
@@ -55,6 +57,36 @@ document.addEventListener('DOMContentLoaded', function () {
         type();
     }
 
+    if (hero) {
+        var spotlight = hero.querySelector('.hero__spotlight');
+        var updateSpotlight = function (clientX, clientY) {
+            if (!spotlight) {
+                return;
+            }
+            var rect = hero.getBoundingClientRect();
+            var x = ((clientX - rect.left) / rect.width) * 100;
+            var y = ((clientY - rect.top) / rect.height) * 100;
+            hero.style.setProperty('--spot-x', x.toFixed(2) + '%');
+            hero.style.setProperty('--spot-y', y.toFixed(2) + '%');
+        };
+
+        hero.addEventListener('mousemove', function (event) {
+            updateSpotlight(event.clientX, event.clientY);
+        });
+
+        hero.addEventListener('mouseleave', function () {
+            hero.style.setProperty('--spot-x', '50%');
+            hero.style.setProperty('--spot-y', '25%');
+        });
+
+        hero.addEventListener('touchmove', function (event) {
+            if (!event.touches || !event.touches.length) {
+                return;
+            }
+            updateSpotlight(event.touches[ 0 ].clientX, event.touches[ 0 ].clientY);
+        }, { passive: true });
+    }
+
     var setActiveLink = function () {
         var activeId = '';
 
@@ -99,4 +131,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     setActiveLink();
     document.addEventListener('scroll', setActiveLink, { passive: true });
+
+    window.setTimeout(function () {
+        if (loader) {
+            loader.classList.add('is-hidden');
+            window.setTimeout(function () {
+                if (loader.parentNode) {
+                    loader.parentNode.removeChild(loader);
+                }
+            }, 500);
+        }
+    }, 180);
 });

@@ -11,6 +11,9 @@ redirect_from:
 <link rel="stylesheet" href="{{ base_path }}/assets/css/portfolio-redesign.css">
 
 <main class="portfolio-home">
+  <div class="portfolio-loader" aria-hidden="true"><span></span></div>
+
+  <!-- Sticky Navigation -->
   <nav class="portfolio-top-nav" aria-label="Main section navigation">
     <div class="portfolio-brand">Sarthak Mahajan</div>
     <ul class="portfolio-nav-links">
@@ -22,10 +25,12 @@ redirect_from:
     </ul>
   </nav>
 
+  <!-- Hero Section -->
   <section id="home" class="hero fade-in" data-section>
+    <div class="hero__spotlight" aria-hidden="true"></div>
     <div class="hero__content">
       <p class="hero__eyebrow">AI Engineer Portfolio</p>
-      <h1 class="hero__title">I build AI systems that solve real-world problems 🚀</h1>
+      <h1 class="hero__title">I build AI systems that detect fraud, spam, and real-world risks 🚀</h1>
       <p class="hero__subtitle">AI Engineer | Machine Learning Developer</p>
       <p class="hero__meta">Building practical ML products with clean UX, measurable outcomes, and production-ready workflows.</p>
       <div class="hero__cta">
@@ -40,6 +45,7 @@ redirect_from:
     </div>
   </section>
 
+  <!-- Skills Section -->
   <section id="skills" class="section-block fade-in" data-section>
     <h2 class="section-title">Skills</h2>
     <p class="section-subtitle">Core stack for data, modeling, and deployment.</p>
@@ -56,7 +62,8 @@ redirect_from:
     </div>
   </section>
 
-  <section id="projects" class="section-block fade-in" data-section>
+  <!-- Projects Section -->
+  <section id="projects" class="section-block projects-section fade-in" data-section>
     <h2 class="section-title">Featured Projects</h2>
     <p class="section-subtitle">Project-first presentation with concise outcomes.</p>
 
@@ -70,7 +77,9 @@ redirect_from:
             <li>Generated plain-language insights with Gemini.</li>
             <li>Compared multiple models in one pipeline.</li>
           </ul>
-          <p class="tech-stack">Tech: Python, Gemini API, Kaggle API, Pandas</p>
+          <div class="tech-tags">
+            <span>Python</span><span>Gemini API</span><span>Kaggle API</span><span>Pandas</span>
+          </div>
           <div class="project-actions">
             <a class="project-btn primary" href="https://github.com/Sarthakm811/AI-Data-Science-Research-Assistant" target="_blank" rel="noopener">GitHub</a>
             <a class="project-btn" href="{{ base_path }}/portfolio/ai-research-assistant/">Live Demo</a>
@@ -87,7 +96,9 @@ redirect_from:
             <li>Integrated 3 disease models with fast API flow.</li>
             <li>Won 1st place at VOID Hackathon.</li>
           </ul>
-          <p class="tech-stack">Tech: React, Node.js, Flask, MongoDB, Deep Learning</p>
+          <div class="tech-tags">
+            <span>React</span><span>Node.js</span><span>Flask</span><span>MongoDB</span>
+          </div>
           <div class="project-actions">
             <a class="project-btn primary" href="https://github.com/Sarthakm811/HealthCare-AI-Guardian" target="_blank" rel="noopener">GitHub</a>
             <a class="project-btn" href="{{ base_path }}/portfolio/healthcare-ai-guardian/">Live Demo</a>
@@ -104,7 +115,9 @@ redirect_from:
             <li>Improved detection quality via augmentation.</li>
             <li>Evaluated with precision, recall, and F1.</li>
           </ul>
-          <p class="tech-stack">Tech: Python, OpenCV, TensorFlow, Xception</p>
+          <div class="tech-tags">
+            <span>Python</span><span>OpenCV</span><span>TensorFlow</span><span>Xception</span>
+          </div>
           <div class="project-actions">
             <a class="project-btn primary" href="https://github.com/Sarthakm811/DeepFake" target="_blank" rel="noopener">GitHub</a>
             <a class="project-btn" href="{{ base_path }}/portfolio/deepfake-analysis/">Live Demo</a>
@@ -121,7 +134,9 @@ redirect_from:
             <li>Applied traffic signal priority rules.</li>
             <li>Integrated alerts with simulation pipeline.</li>
           </ul>
-          <p class="tech-stack">Tech: Python, YOLO, OpenCV, NumPy</p>
+          <div class="tech-tags">
+            <span>Python</span><span>YOLO</span><span>OpenCV</span><span>NumPy</span>
+          </div>
           <div class="project-actions">
             <a class="project-btn primary" href="{{ base_path }}/portfolio/smart-traffic-management/">GitHub</a>
             <a class="project-btn" href="{{ base_path }}/portfolio/smart-traffic-management/">Live Demo</a>
@@ -138,7 +153,9 @@ redirect_from:
             <li>Analyzed region-wise fall patterns.</li>
             <li>Built visuals for fast stakeholder insights.</li>
           </ul>
-          <p class="tech-stack">Tech: Python, Pandas, Matplotlib</p>
+          <div class="tech-tags">
+            <span>Python</span><span>Pandas</span><span>Matplotlib</span>
+          </div>
           <div class="project-actions">
             <a class="project-btn primary" href="https://github.com/Sarthakm811/NASA-Meteorite" target="_blank" rel="noopener">GitHub</a>
             <a class="project-btn" href="{{ base_path }}/portfolio/nasa-meteorite-analysis/">Live Demo</a>
@@ -155,7 +172,9 @@ redirect_from:
             <li>Identified high-performing regions and channels.</li>
             <li>Delivered dashboard-style visual summaries.</li>
           </ul>
-          <p class="tech-stack">Tech: Python, NumPy, Pandas, Matplotlib</p>
+          <div class="tech-tags">
+            <span>Python</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span>
+          </div>
           <div class="project-actions">
             <a class="project-btn primary" href="https://github.com/Sarthakm811/adidas-us-sales-" target="_blank" rel="noopener">GitHub</a>
             <a class="project-btn" href="{{ base_path }}/portfolio/adidas-sales-analysis/">Live Demo</a>
@@ -165,6 +184,7 @@ redirect_from:
     </div>
   </section>
 
+  <!-- Proof Section -->
   <section id="achievements" class="section-block fade-in" data-section>
     <h2 class="section-title">Proof & Achievements</h2>
     <p class="section-subtitle">Compact evidence of capability and project outcomes.</p>
@@ -177,6 +197,7 @@ redirect_from:
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact" class="section-block fade-in" data-section>
     <h2 class="section-title">Contact</h2>
     <p class="section-subtitle">Open for internships, freelance work, and full-time AI/ML roles.</p>
