@@ -82,7 +82,7 @@ redirect_from:
           </div>
           <div class="project-actions">
             <a class="project-btn primary" href="https://github.com/Sarthakm811/AI-Data-Science-Research-Assistant" target="_blank" rel="noopener">GitHub</a>
-            <a class="project-btn" href="{{ base_path }}/portfolio/ai-research-assistant/">Live Demo</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/ai-research-assistant/">Project Details</a>
           </div>
         </div>
       </article>
@@ -101,7 +101,7 @@ redirect_from:
           </div>
           <div class="project-actions">
             <a class="project-btn primary" href="https://github.com/Sarthakm811/HealthCare-AI-Guardian" target="_blank" rel="noopener">GitHub</a>
-            <a class="project-btn" href="{{ base_path }}/portfolio/healthcare-ai-guardian/">Live Demo</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/healthcare-ai-guardian/">Project Details</a>
           </div>
         </div>
       </article>
@@ -120,7 +120,7 @@ redirect_from:
           </div>
           <div class="project-actions">
             <a class="project-btn primary" href="https://github.com/Sarthakm811/DeepFake" target="_blank" rel="noopener">GitHub</a>
-            <a class="project-btn" href="{{ base_path }}/portfolio/deepfake-analysis/">Live Demo</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/deepfake-analysis/">Project Details</a>
           </div>
         </div>
       </article>
@@ -139,7 +139,7 @@ redirect_from:
           </div>
           <div class="project-actions">
             <a class="project-btn primary" href="{{ base_path }}/portfolio/smart-traffic-management/">GitHub</a>
-            <a class="project-btn" href="{{ base_path }}/portfolio/smart-traffic-management/">Live Demo</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/smart-traffic-management/">Project Details</a>
           </div>
         </div>
       </article>
@@ -158,7 +158,7 @@ redirect_from:
           </div>
           <div class="project-actions">
             <a class="project-btn primary" href="https://github.com/Sarthakm811/NASA-Meteorite" target="_blank" rel="noopener">GitHub</a>
-            <a class="project-btn" href="{{ base_path }}/portfolio/nasa-meteorite-analysis/">Live Demo</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/nasa-meteorite-analysis/">Project Details</a>
           </div>
         </div>
       </article>
@@ -177,7 +177,7 @@ redirect_from:
           </div>
           <div class="project-actions">
             <a class="project-btn primary" href="https://github.com/Sarthakm811/adidas-us-sales-" target="_blank" rel="noopener">GitHub</a>
-            <a class="project-btn" href="{{ base_path }}/portfolio/adidas-sales-analysis/">Live Demo</a>
+            <a class="project-btn" href="{{ base_path }}/portfolio/adidas-sales-analysis/">Project Details</a>
           </div>
         </div>
       </article>

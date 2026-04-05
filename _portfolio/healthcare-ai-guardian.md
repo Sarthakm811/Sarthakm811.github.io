@@ -106,7 +106,7 @@ As part of a **4-member team**, I contributed to:
 
 ### 🔗 Links
 - [GitHub Repository](https://github.com/Sarthakm811/HealthCare-AI-Guardian)
-- [Live Demo](#) *(if available)*
+- Live demo not available yet.
 
 ---
 
